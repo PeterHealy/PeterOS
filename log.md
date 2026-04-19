@@ -10,6 +10,14 @@ Use one dated heading per event:
 
 `## [YYYY-MM-DD] restructure | Scope`
 
+## [2026-04-19] ingest | Ben Alistor - Content Rules LinkedIn Post
+
+- Captured Ben Alistor's LinkedIn post about three filters for stronger content.
+- Stored the accessible raw excerpt at [[raw/company-building/marketing/2026-04-19 ben-alistor-content-rules-linkedin-post]].
+- Added a source summary at [[sources/company-building/marketing/2026-04-19 Ben Alistor - Content Rules LinkedIn Post]].
+- Added a reusable reference page at [[reference/company-building/marketing/Ben Alistor Content Rules]].
+- Source access note: direct LinkedIn page fetch was unreliable, so the raw capture preserves the accessible post text from search results and marks the capture as partial.
+
 ## [2026-04-19] ingest | Bryan Johnson - Protocol
 
 - Captured Bryan Johnson's public protocol site as a non-personal health reference.
