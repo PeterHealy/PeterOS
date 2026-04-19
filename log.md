@@ -10,6 +10,14 @@ Use one dated heading per event:
 
 `## [YYYY-MM-DD] restructure | Scope`
 
+## [2026-04-19] ingest | Greg Isenberg - Agent-First Startups Tweet
+
+- Captured Greg Isenberg's X post from April 18, 2026 about agent-first startups.
+- Stored the accessible raw excerpt under [[raw/company-building/ai/2026-04-18 greg-isenberg-agent-first-startups-tweet]].
+- Added a source summary at [[sources/company-building/ai/2026-04-18 Greg Isenberg - Agent-First Startups Tweet]].
+- Opened a working dossier at [[research/company-building/Agent-First Startups]].
+- Source access note: direct X page retrieval was truncated, so the raw capture preserves the accessible embed/snippet text and marks the capture as partial.
+
 ## [2026-04-19] restructure | Personal OS v1 scaffold
 
 - Reworked the repository around the agreed v1 model: `inbox`, `raw`, `sources`, `knowledge`, `records`, `reference`, `research`, `ideas`, and `queries`.

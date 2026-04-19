@@ -15,8 +15,10 @@
 
 - [[raw/README|Raw]] - immutable source layer.
 - [[raw/misc/2026-04-18 karpathy-llm-wiki]] - seed raw source capture for the LLM wiki pattern.
+- [[raw/company-building/ai/2026-04-18 greg-isenberg-agent-first-startups-tweet]] - raw capture of Greg Isenberg's agent-first startups tweet.
 - [[sources/README|Sources]] - normalized source summaries and digests.
 - [[sources/misc/2026-04-18 Karpathy - LLM Wiki]] - summary of the seed source that defines the LLM wiki pattern.
+- [[sources/company-building/ai/2026-04-18 Greg Isenberg - Agent-First Startups Tweet]] - summary of a tweet arguing for agent-native startups over UI-first SaaS.
 
 ## Knowledge
 
@@ -45,6 +47,7 @@
 ## Research
 
 - [[research/README|Research]] - active dossiers for unfinished topics.
+- [[research/company-building/Agent-First Startups]] - working file for the thesis that incumbents become backends and startups become agent-native fronts.
 
 ## Ideas
 
