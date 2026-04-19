@@ -34,6 +34,7 @@ The default v1 domains are:
 
 - `health`
 - `company-building`
+- `ai-agents`
 - `finance`
 - `reading-writing`
 - `travel`

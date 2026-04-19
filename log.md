@@ -10,6 +10,14 @@ Use one dated heading per event:
 
 `## [YYYY-MM-DD] restructure | Scope`
 
+## [2026-04-19] ingest | ETHSkills
+
+- Captured `ethskills.com` as an AI-agent skill library reference.
+- Stored a raw metadata stub at [[raw/ai-agents/2026-04-19 ethskills]].
+- Added a source summary at [[sources/ai-agents/2026-04-19 ETHSkills]].
+- Added [[reference/ai-agents/README]] and [[reference/ai-agents/skills/README]] as a dedicated home for external skill resources.
+- Added a reusable reference page at [[reference/ai-agents/skills/ETHSkills]].
+
 ## [2026-04-19] ingest | Ben Alistor - Content Rules LinkedIn Post
 
 - Captured Ben Alistor's LinkedIn post about three filters for stronger content.

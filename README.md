@@ -31,6 +31,7 @@ The main domains in v1 are:
 
 - `health`
 - `company-building`
+- `ai-agents`
 - `finance`
 - `reading-writing`
 - `travel`

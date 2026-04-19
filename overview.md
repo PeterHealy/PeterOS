@@ -35,6 +35,7 @@ This repository is the first-pass scaffold for a Personal OS built on the LLM wi
 
 - `health`
 - `company-building`
+- `ai-agents`
 - `finance`
 - `reading-writing`
 - `travel`

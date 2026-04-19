@@ -14,11 +14,13 @@
 ## Raw And Sources
 
 - [[raw/README|Raw]] - immutable source layer.
+- [[raw/ai-agents/2026-04-19 ethskills]] - metadata stub for ETHSkills.
 - [[raw/misc/2026-04-18 karpathy-llm-wiki]] - seed raw source capture for the LLM wiki pattern.
 - [[raw/company-building/ai/2026-04-18 greg-isenberg-agent-first-startups-tweet]] - raw capture of Greg Isenberg's agent-first startups tweet.
 - [[raw/company-building/marketing/2026-04-19 ben-alistor-content-rules-linkedin-post]] - raw capture of Ben Alistor's LinkedIn content rules post.
 - [[raw/health/2026-04-19 bryan-johnson-protocol]] - metadata stub for Bryan Johnson's protocol site.
 - [[sources/README|Sources]] - normalized source summaries and digests.
+- [[sources/ai-agents/2026-04-19 ETHSkills]] - summary of ETHSkills as an external agent skill library.
 - [[sources/misc/2026-04-18 Karpathy - LLM Wiki]] - summary of the seed source that defines the LLM wiki pattern.
 - [[sources/company-building/ai/2026-04-18 Greg Isenberg - Agent-First Startups Tweet]] - summary of a tweet arguing for agent-native startups over UI-first SaaS.
 - [[sources/company-building/marketing/2026-04-19 Ben Alistor - Content Rules LinkedIn Post]] - summary of a LinkedIn post on content quality filters.
@@ -44,6 +46,9 @@
 ## Reference
 
 - [[reference/README|Reference]] - practical lookup pages.
+- [[reference/ai-agents/README|AI Agents Reference]] - external resources and guides for working with agents.
+- [[reference/ai-agents/skills/README|Agent Skills]] - external skill libraries and skill-like resources for agents.
+- [[reference/ai-agents/skills/ETHSkills]] - Ethereum skill library for AI agents.
 - [[reference/company-building/README|Company Building Reference]] - non-project-specific business and marketing references.
 - [[reference/company-building/marketing/README|Marketing Reference]] - reusable content and marketing guidelines.
 - [[reference/company-building/marketing/Ben Alistor Content Rules]] - a compact reference note for three filters on posting content.
