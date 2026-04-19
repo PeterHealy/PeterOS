@@ -16,9 +16,11 @@
 - [[raw/README|Raw]] - immutable source layer.
 - [[raw/misc/2026-04-18 karpathy-llm-wiki]] - seed raw source capture for the LLM wiki pattern.
 - [[raw/company-building/ai/2026-04-18 greg-isenberg-agent-first-startups-tweet]] - raw capture of Greg Isenberg's agent-first startups tweet.
+- [[raw/health/2026-04-19 bryan-johnson-protocol]] - metadata stub for Bryan Johnson's protocol site.
 - [[sources/README|Sources]] - normalized source summaries and digests.
 - [[sources/misc/2026-04-18 Karpathy - LLM Wiki]] - summary of the seed source that defines the LLM wiki pattern.
 - [[sources/company-building/ai/2026-04-18 Greg Isenberg - Agent-First Startups Tweet]] - summary of a tweet arguing for agent-native startups over UI-first SaaS.
+- [[sources/health/2026-04-19 Bryan Johnson - Protocol]] - summary of Bryan Johnson's public protocol site.
 
 ## Knowledge
 
@@ -40,6 +42,9 @@
 ## Reference
 
 - [[reference/README|Reference]] - practical lookup pages.
+- [[reference/health/README|Health Reference]] - non-personal health references and practical guides.
+- [[reference/health/protocols/README|Protocols]] - externally authored health protocols worth referring back to.
+- [[reference/health/protocols/Bryan Johnson Protocol]] - structured reference note for Bryan Johnson's public protocol.
 - [[reference/health/nutrition/recipes/README|Recipes]] - cooking pages with macros where available.
 - [[reference/health/nutrition/supplements/README|Supplements]] - supplement notes and protocols.
 - [[reference/travel/visas/README|Visas]] - travel and residency reference pages.

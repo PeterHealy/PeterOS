@@ -10,6 +10,14 @@ Use one dated heading per event:
 
 `## [YYYY-MM-DD] restructure | Scope`
 
+## [2026-04-19] ingest | Bryan Johnson - Protocol
+
+- Captured Bryan Johnson's public protocol site as a non-personal health reference.
+- Stored a raw metadata stub at [[raw/health/2026-04-19 bryan-johnson-protocol]] because the canonical source is a live website.
+- Added a source summary at [[sources/health/2026-04-19 Bryan Johnson - Protocol]].
+- Added a canonical reference page at [[reference/health/protocols/Bryan Johnson Protocol]].
+- Added `reference/health/` and `reference/health/protocols/` as explicit homes for high-quality external health guides that are worth revisiting.
+
 ## [2026-04-19] ingest | Greg Isenberg - Agent-First Startups Tweet
 
 - Captured Greg Isenberg's X post from April 18, 2026 about agent-first startups.
