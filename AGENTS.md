@@ -16,8 +16,8 @@ The user should be able to mostly use Codex for ingestion, filing, and upkeep wh
 
 - `inbox/sources/` is the staging area for fast unstructured intake.
 - `inbox/outputs/` is the staging area for useful answers that should be filed later if they are not yet normalized.
-- `raw/` stores immutable source captures such as tweets, podcast snippets, Kobo highlights, PDFs, spreadsheets, lab results, and article excerpts.
-- `sources/` stores one summary or digest page per important source or source bundle.
+- `raw/` stores immutable source captures such as tweets, podcast snippets, Kobo highlights, PDFs, spreadsheets, lab results, article excerpts, and user-pasted email highlight captures.
+- `sources/` stores one summary or digest page per important source or source bundle. For URL-based articles, essays, and blog posts, summarize the original source when accessible, not only the user's highlights.
 - `knowledge/` stores evergreen pages by domain.
 - `records/` stores longitudinal or versioned material such as blood work history and finance strategy versions.
 - `reference/` stores practical lookup pages such as recipes, supplements, and visa notes.
@@ -68,8 +68,11 @@ Use these page types deliberately:
 1. Start by reading `index.md`, then follow links into the relevant pages.
 2. For a new source:
    - accept the source from chat or `inbox/sources/`
-   - preserve the raw excerpt or file in `raw/`
+   - preserve the raw excerpt, pasted email, file, or metadata capture in `raw/`
    - create or update a source summary in `sources/`
+   - for URL-based articles, essays, and blog posts, fetch or read the canonical URL when possible and base the source summary on the full source
+   - if the canonical URL is paywalled, blocked, deleted, or otherwise inaccessible, say so explicitly and mark the summary as based on the user-provided excerpts or metadata
+   - keep the user's highlights and `PNote` material in a clearly labeled section such as `Your Notes`, without duplicating the full raw capture
    - promote its durable insights into the correct long-term destination
    - extract any concrete tool or website mentions into [[reference/Tools And Websites]] when they seem reusable
    - update `index.md` and append an entry to `log.md`
@@ -103,6 +106,11 @@ Use these page types deliberately:
 - Tweets, podcast snippets, and Kobo highlights:
   - preserve the raw excerpt locally
   - use digests when many small fragments inform the same topic
+- Article, essay, and blog highlight emails:
+  - preserve the pasted email exactly enough in `raw/` to retain the URL, copied snippets, separators, and `PNote` annotations
+  - summarize the original article, essay, or blog post in `sources/` when the URL is accessible
+  - separate the author's argument from the user's reactions by using a `Your Notes` or `Personal Notes` section
+  - treat durable `PNote` takeaways as candidates for `knowledge/`, unresolved threads as candidates for `research/`, and user-originated product, writing, or life ideas as candidates for `ideas/`
 - Ideas:
   - favor low-friction capture under `ideas/`
   - only normalize into other areas when the idea matures
@@ -116,6 +124,8 @@ Use these page types deliberately:
 - Prefer short sections and explicit headings over long prose.
 - Use Obsidian wikilinks between related pages.
 - Keep claims traceable by linking back to `sources/` or `records/` pages.
+- Keep the basis of each source summary explicit: full source, user-provided excerpt, metadata stub, or mixed.
+- Do not duplicate the full raw capture in the wiki layer; extract only the useful personal notes, highlights, and PNotes needed for navigation and synthesis.
 - If two sources disagree, record the disagreement rather than collapsing it.
 - When unsure, mark a claim as tentative.
 - Avoid duplicating full source text in the wiki layer. Summarize and synthesize instead.
@@ -135,8 +145,8 @@ Common fields:
 
 Helpful type-specific fields:
 
-- `raw-source`: `author`, `captured`, `source_type`, `url`
-- `source-summary`: `author`, `published`, `ingested`, `raw_source`
+- `raw-source`: `author`, `published`, `captured`, `source_type`, `url`
+- `source-summary`: `author`, `published`, `ingested`, `url`, `summary_basis`, `raw_source`
 - `evergreen`: `source_pages`
 - `research-dossier`: `focus`, `source_pages`
 - `record`: `recorded_on`, `source_pages`
@@ -144,10 +154,12 @@ Helpful type-specific fields:
 
 ## Naming Conventions
 
-- Raw captures: `YYYY-MM-DD short-slug.md`
-- Source summaries: `YYYY-MM-DD Source Title.md`
-- Saved queries: `YYYY-MM-DD Short Question.md`
-- Evergreen pages, references, and dossiers: natural titles
+- Default to human-readable page titles and filenames. Keep dates in frontmatter fields such as `captured`, `published`, `ingested`, `created`, `updated`, `answered_on`, and `recorded_on`.
+- Raw captures: natural slugs such as `author-source-title-highlight-email.md` or `source-title-raw.md`. Use a date only when there is no stable title, the capture is a daily/batch import, or a collision needs disambiguation.
+- Source summaries: natural titles such as `Author - Source Title.md` or `Source Title.md`; do not prefix publication dates unless the date is part of the source's canonical title.
+- Saved queries: natural question or memo titles such as `Should I Do X.md`; store answer date in `answered_on`.
+- Evergreen pages, references, and dossiers: natural titles.
+- Date prefixes are still appropriate for longitudinal records and explicitly dated versioned artifacts.
 - Finance plans: `YYYY-MM-DD Finance Plan vN.md`
 - Blood work records: `YYYY-MM-DD Blood Work.md`
 

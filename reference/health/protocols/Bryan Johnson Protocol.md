@@ -58,5 +58,5 @@ A public, systems-oriented health and longevity protocol published by Bryan John
 
 ## Canonical Source
 
-- [[sources/health/2026-04-19 Bryan Johnson - Protocol]]
+- [[sources/health/Bryan Johnson - Protocol]]
 - <https://protocol.bryanjohnson.com/>

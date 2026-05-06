@@ -61,5 +61,5 @@ A compact reference distilled from one March 2026 X post about growing a persona
 
 ## Canonical Source
 
-- [[sources/company-building/marketing/2026-03-10 natiakourdadze - How To Build a Personal Brand on X in 2026]]
+- [[sources/company-building/marketing/natiakourdadze - How To Build a Personal Brand on X in 2026]]
 - <https://x.com/natiakourdadze/status/2031475626318639309>

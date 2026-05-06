@@ -5,7 +5,7 @@ status: active
 created: 2026-04-27
 updated: 2026-04-27
 source_pages:
-  - "[[sources/company-building/ai/2026-04-18 Greg Isenberg - Agent-First Startups Tweet]]"
+  - "[[sources/company-building/ai/Greg Isenberg - Agent-First Startups Tweet]]"
 tags:
   - company-building
   - ai
@@ -61,5 +61,5 @@ tags:
 
 ## Canonical Sources
 
-- [[sources/company-building/ai/2026-04-18 Greg Isenberg - Agent-First Startups Tweet]]
+- [[sources/company-building/ai/Greg Isenberg - Agent-First Startups Tweet]]
 - [[research/company-building/Agent-First Startups]]

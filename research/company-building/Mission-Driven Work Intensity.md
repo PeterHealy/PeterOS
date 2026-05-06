@@ -6,7 +6,7 @@ focus: When extreme focused effort helps, when it backfires, and how it interact
 created: 2026-04-27
 updated: 2026-04-27
 source_pages:
-  - "[[sources/company-building/execution/2023-03-04 chameleon_jeff - Hard Work Over Smart Work Thread]]"
+  - "[[sources/company-building/execution/chameleon_jeff - Hard Work Over Smart Work Thread]]"
 tags:
   - company-building
   - execution
@@ -50,9 +50,9 @@ Builders repeatedly hear advice about leverage, systems, and optimization. This 
 
 ## Related Pages
 
-- [[sources/company-building/execution/2023-03-04 chameleon_jeff - Hard Work Over Smart Work Thread]]
+- [[sources/company-building/execution/chameleon_jeff - Hard Work Over Smart Work Thread]]
 - [[knowledge/company-building/README]]
 
 ## Source Pages
 
-- [[sources/company-building/execution/2023-03-04 chameleon_jeff - Hard Work Over Smart Work Thread]]
+- [[sources/company-building/execution/chameleon_jeff - Hard Work Over Smart Work Thread]]

@@ -4,7 +4,7 @@ title: LLM Wiki Pattern
 status: active
 updated: 2026-04-19
 source_pages:
-  - "[[sources/misc/2026-04-18 Karpathy - LLM Wiki]]"
+  - "[[sources/misc/Karpathy - LLM Wiki]]"
 tags:
   - llm-wiki
   - workflow

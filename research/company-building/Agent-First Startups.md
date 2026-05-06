@@ -6,7 +6,7 @@ focus: When incumbents become backends and startups become agent-native fronts
 created: 2026-04-19
 updated: 2026-04-27
 source_pages:
-  - "[[sources/company-building/ai/2026-04-18 Greg Isenberg - Agent-First Startups Tweet]]"
+  - "[[sources/company-building/ai/Greg Isenberg - Agent-First Startups Tweet]]"
 tags:
   - company-building
   - ai
@@ -58,10 +58,10 @@ This thesis points at a possible shift in company-building: instead of shipping 
 
 ## Related Pages
 
-- [[sources/company-building/ai/2026-04-18 Greg Isenberg - Agent-First Startups Tweet]]
+- [[sources/company-building/ai/Greg Isenberg - Agent-First Startups Tweet]]
 - [[knowledge/company-building/Agent-Native Go-To-Market]]
 - [[knowledge/company-building/README]]
 
 ## Source Pages
 
-- [[sources/company-building/ai/2026-04-18 Greg Isenberg - Agent-First Startups Tweet]]
+- [[sources/company-building/ai/Greg Isenberg - Agent-First Startups Tweet]]

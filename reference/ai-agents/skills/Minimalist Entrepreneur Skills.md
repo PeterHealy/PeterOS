@@ -45,5 +45,5 @@ An external skill library that packages a founder methodology into agent-usable 
 
 ## Canonical Source
 
-- [[sources/ai-agents/2026-04-27 Sahil Lavingia - Minimalist Entrepreneur Skills]]
+- [[sources/ai-agents/Sahil Lavingia - Minimalist Entrepreneur Skills]]
 - <https://github.com/slavingia/skills>

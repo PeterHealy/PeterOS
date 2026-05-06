@@ -6,14 +6,14 @@ created: 2026-05-05
 updated: 2026-05-05
 tags: [skills, learning, obsidian-import]
 source_pages:
-  - "[[raw/personal/obsidian-import/2026-05-05 skills-to-improve]]"
+  - "[[raw/personal/obsidian-import/skills-to-improve]]"
 ---
 
 # Skills To Improve
 
 ## Source
 
-Imported from [[raw/personal/obsidian-import/2026-05-05 skills-to-improve]].
+Imported from [[raw/personal/obsidian-import/skills-to-improve]].
 
 ## Visual And Content Skills
 

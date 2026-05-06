@@ -53,5 +53,5 @@ A compact early-distribution reference distilled from one March 2026 X post. The
 
 ## Canonical Source
 
-- [[sources/company-building/marketing/2026-03-13 Om Patel - First 100 Paying Users With Zero Ad Spend]]
+- [[sources/company-building/marketing/Om Patel - First 100 Paying Users With Zero Ad Spend]]
 - <https://x.com/om_patel5/status/2032306365822017847>

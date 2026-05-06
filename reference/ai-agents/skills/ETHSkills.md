@@ -42,5 +42,5 @@ A public skill library for AI agents working on Ethereum. It is designed to give
 
 ## Canonical Source
 
-- [[sources/ai-agents/2026-04-19 ETHSkills]]
+- [[sources/ai-agents/ETHSkills]]
 - <https://ethskills.com/>

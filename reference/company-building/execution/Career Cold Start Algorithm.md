@@ -53,5 +53,5 @@ A simple ramp-up procedure for entering a new role, team, or project and buildin
 
 ## Canonical Source
 
-- [[sources/company-building/execution/2018-03-08 Boz - A Career Cold Start Algorithm]]
+- [[sources/company-building/execution/Boz - A Career Cold Start Algorithm]]
 - <https://boz.com/articles/career-cold-start>

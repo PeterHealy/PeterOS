@@ -57,5 +57,5 @@ A reusable workflow for turning customer-language research into many ad and land
 
 ## Canonical Source
 
-- [[sources/company-building/marketing/2026-04-27 Alex Lieberman - Claude Code Replaced My 20-Person Marketing Team]]
+- [[sources/company-building/marketing/Alex Lieberman - Claude Code Replaced My 20-Person Marketing Team]]
 - [[reference/Tools And Websites]]

@@ -51,5 +51,5 @@ The audience should know what they are about to consume and why it matters.
 
 ## Canonical Source
 
-- [[sources/company-building/marketing/2026-04-19 Ben Alistor - Content Rules LinkedIn Post]]
+- [[sources/company-building/marketing/Ben Alistor - Content Rules LinkedIn Post]]
 - <https://www.linkedin.com/posts/ben-alistor_this-is-paulina-the-head-of-my-creative-share-7433871466653204480-BP9l/>

@@ -63,6 +63,7 @@ Practical next options:
 
 1. Paste a source or note into `inbox/sources/`, or hand it to Codex directly in chat.
 2. Ask Codex to ingest it.
-3. Codex normalizes the source into `raw/` and `sources/`.
-4. Codex updates the right long-term page in `knowledge/`, `records/`, `reference/`, `research/`, `ideas/`, or `queries/`.
-5. Review the result in Obsidian when useful, but do not manually maintain the filing system unless you want to.
+3. Codex preserves the provided capture in `raw/` and writes the normalized source summary in `sources/`.
+4. For article, essay, and blog URLs, Codex summarizes the full original source when reachable and keeps personal highlights or PNotes separate.
+5. Codex updates the right long-term page in `knowledge/`, `records/`, `reference/`, `research/`, `ideas/`, or `queries/`.
+6. Review the result in Obsidian when useful, but do not manually maintain the filing system unless you want to.

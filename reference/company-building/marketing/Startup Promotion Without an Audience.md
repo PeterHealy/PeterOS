@@ -63,5 +63,5 @@ A compact reference distilled from a March 2026 post about promoting a startup f
 
 ## Canonical Source
 
-- [[sources/company-building/marketing/2026-03-11 natiakourdadze - How Id Promote My Startup If I Had 0 Followers]]
+- [[sources/company-building/marketing/natiakourdadze - How Id Promote My Startup If I Had 0 Followers]]
 - <https://x.com/natiakourdadze/status/2031811758185197964>
