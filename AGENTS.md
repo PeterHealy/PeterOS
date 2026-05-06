@@ -21,6 +21,7 @@ The user should be able to mostly use Codex for ingestion, filing, and upkeep wh
 - `knowledge/` stores evergreen pages by domain.
 - `records/` stores longitudinal or versioned material such as blood work history and finance strategy versions.
 - `reference/` stores practical lookup pages such as recipes, supplements, and visa notes.
+- `reference/Tools And Websites.md` is the shared registry for concrete tools, websites, APIs, extensions, and products worth reusing; keep each entry as URL plus a short note on what it is for.
 - `research/` stores active dossiers for unfinished or messy topics.
 - `ideas/` stores high-volume idea capture.
 - `queries/` stores durable answers, memos, and analyses that came out of asking questions.
@@ -70,6 +71,7 @@ Use these page types deliberately:
    - preserve the raw excerpt or file in `raw/`
    - create or update a source summary in `sources/`
    - promote its durable insights into the correct long-term destination
+   - extract any concrete tool or website mentions into [[reference/Tools And Websites]] when they seem reusable
    - update `index.md` and append an entry to `log.md`
 3. For a question:
    - answer from existing wiki pages first

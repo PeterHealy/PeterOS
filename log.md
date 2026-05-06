@@ -10,6 +10,87 @@ Use one dated heading per event:
 
 `## [YYYY-MM-DD] restructure | Scope`
 
+## [2026-05-05] ingest | Obsidian Notes Import
+
+- Imported 50 markdown notes from `/Users/petercdjh/obsidian/notes` into the raw layer while preserving the original book highlights, web highlights, and personal annotations.
+- Stored book-highlight captures under `raw/reading-writing/books/obsidian-import/` and web-highlight captures under `raw/reading-writing/blogs-essays-articles/obsidian-import/`.
+- Stored personal and miscellaneous captures under `raw/personal/obsidian-import/`.
+- Added [[records/2026-05-05 Obsidian Notes Import Manifest]] as the import map.
+- Added source digests at [[sources/reading-writing/books/2026-05-05 Obsidian Book Highlights Digest]] and [[sources/reading-writing/blogs-essays-articles/2026-05-05 Obsidian Essay And Blog Highlights Digest]].
+- Extracted personal build ideas into [[ideas/build/2026-05-05 Imported Build Ideas From Obsidian]] and skill notes into [[reference/personal/Skills To Improve]].
+- Added reusable tools and learning sites from the personal notes to [[reference/Tools And Websites]].
+
+## [2026-04-27] ingest | Alex Lieberman - Claude Code Replaced My 20-Person Marketing Team
+
+- Captured the user's notes from an Alex Lieberman video about GTM engineering, templated ad creation, landing-page iteration, and the analytics bottleneck.
+- Stored the raw source under [[raw/company-building/marketing/2026-04-27 alex-lieberman-claude-code-replaced-my-20-person-marketing-team]] and copied the related ad-generator screenshot into `raw/`.
+- Added a source summary at [[sources/company-building/marketing/2026-04-27 Alex Lieberman - Claude Code Replaced My 20-Person Marketing Team]].
+- Added a reusable workflow page at [[reference/company-building/marketing/AI-Assisted GTM Testing Loop]].
+- Verification note: kept `published` blank because the video's publish date was not confirmed during this ingest.
+- Caveat note: the source suggests using Google's Indexing API for landing-page indexing, but the summary records Google's official restriction that the API is only for job posting and livestream pages.
+
+## [2026-04-27] restructure | Tools And Websites Registry
+
+- Added [[reference/Tools And Websites]] as the canonical place to store reusable tool and website mentions with URLs and one-line descriptions.
+- Updated [[AGENTS]] so future source ingests extract concrete tool and website mentions into the shared registry.
+- Updated [[reference/README]] and [[index]] so the new registry is easy to find from normal repo navigation.
+
+## [2026-04-27] ingest | Om Patel - First 100 Paying Users With Zero Ad Spend
+
+- Captured the full user-provided text of a March 13, 2026 X post about early customer acquisition without paid ads.
+- Stored the raw source under [[raw/company-building/marketing/2026-03-13 om-patel-first-100-paying-users-zero-ad-spend]].
+- Added a source summary at [[sources/company-building/marketing/2026-03-13 Om Patel - First 100 Paying Users With Zero Ad Spend]].
+- Added a reusable marketing reference page at [[reference/company-building/marketing/First 100 Users Without Paid Ads]].
+- Source access note: the local capture relies on the title and body text provided directly by the user; the published date was derived from the X status ID.
+
+## [2026-04-27] ingest | natiakourdadze - How Id Promote My Startup If I Had 0 Followers
+
+- Captured the full user-provided text of a March 11, 2026 X post about startup promotion through competitor mention monitoring, community seeding, and borrowed audiences.
+- Stored the raw source under [[raw/company-building/marketing/2026-03-11 natiakourdadze-how-id-promote-my-startup-if-i-had-0-followers]].
+- Added a source summary at [[sources/company-building/marketing/2026-03-11 natiakourdadze - How Id Promote My Startup If I Had 0 Followers]].
+- Added a reusable marketing reference page at [[reference/company-building/marketing/Startup Promotion Without an Audience]].
+- Source access note: direct X retrieval was unreliable, so the local capture relies on the title and body text provided directly by the user; the published date was derived from the X status ID.
+
+## [2026-04-27] ingest | Sahil Lavingia - Minimalist Entrepreneur Skills
+
+- Captured `slavingia/skills` as an external agent skill library with company-building content.
+- Stored a raw metadata stub at [[raw/ai-agents/2026-04-27 slavingia-skills]].
+- Added a source summary at [[sources/ai-agents/2026-04-27 Sahil Lavingia - Minimalist Entrepreneur Skills]].
+- Added a reusable reference page at [[reference/ai-agents/skills/Minimalist Entrepreneur Skills]].
+- Decision note: kept it as a reference rather than vendoring the Claude plugin into the wiki.
+
+## [2026-04-27] ingest | natiakourdadze - How To Build a Personal Brand on X in 2026
+
+- Captured the full user-provided text of a March 10, 2026 X post about personal-brand growth, algorithm heuristics, and viral hooks.
+- Stored the raw source under [[raw/company-building/marketing/2026-03-10 natiakourdadze-how-to-build-a-personal-brand-on-x-in-2026]].
+- Added a source summary at [[sources/company-building/marketing/2026-03-10 natiakourdadze - How To Build a Personal Brand on X in 2026]].
+- Added a reusable marketing reference page at [[reference/company-building/marketing/X Personal Brand Growth Tactics]].
+- Source access note: direct X retrieval was unreliable, so the local capture relies on the title and body text provided directly by the user; the published date was derived from the X status ID.
+
+## [2026-04-27] ingest | Greg Isenberg - Agent-First Startups Tweet
+
+- Replaced the previously partial local capture with the full post text provided directly in chat.
+- Expanded [[sources/company-building/ai/2026-04-18 Greg Isenberg - Agent-First Startups Tweet]] to include the pricing, services-compression, founder-selection, and distribution claims.
+- Updated [[research/company-building/Agent-First Startups]] with a clearer agent-native GTM model and its main contradictions.
+- Added [[knowledge/company-building/Agent-Native Go-To-Market]] as a reusable heuristic page for evaluating vertical AI opportunities.
+- Source access note: direct X retrieval remained truncated, so the canonical local capture now relies on the user-provided full text.
+
+## [2026-04-27] ingest | Boz - A Career Cold Start Algorithm
+
+- Captured Boz's March 8, 2018 article on ramping into a new team or project by running recursive listening interviews.
+- Stored the raw source capture under [[raw/company-building/execution/2018-03-08 boz-career-cold-start-algorithm]].
+- Added a source summary at [[sources/company-building/execution/2018-03-08 Boz - A Career Cold Start Algorithm]].
+- Added [[reference/company-building/execution/README]] as an explicit home for reusable execution playbooks.
+- Added a reusable reference page at [[reference/company-building/execution/Career Cold Start Algorithm]].
+
+## [2026-04-27] ingest | chameleon_jeff - Hard Work Over Smart Work Thread
+
+- Captured the user-pasted full text of @chameleon_jeff's March 4, 2023 X thread about hard work, focus, and mission-driven execution.
+- Stored the raw thread capture under [[raw/company-building/execution/2023-03-04 chameleon-jeff-hard-work-over-smart-work-thread]].
+- Added a source summary at [[sources/company-building/execution/2023-03-04 chameleon_jeff - Hard Work Over Smart Work Thread]].
+- Opened a working dossier at [[research/company-building/Mission-Driven Work Intensity]].
+- Source access note: the thread was provided directly in chat and preserved as a single continuous capture because the tweets all expressed one idea.
+
 ## [2026-04-19] ingest | ETHSkills
 
 - Captured `ethskills.com` as an AI-agent skill library reference.

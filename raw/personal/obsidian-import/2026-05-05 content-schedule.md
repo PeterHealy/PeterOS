@@ -1,0 +1,66 @@
+Week 2
+- Go through a list creation (vid - more about consendsys)
+	- [x] Recorded
+	- [ ] Edited
+- Folding clothes (short)
+	- [ ] Recorded
+	- [ ] Edited
+- Posting on reddit (vid in combo with anlytics)
+	- [x] Recorded
+	- [ ] Edited
+- Add analytics (yt see above. short and vd=id)
+	- [x] Recorded
+	- [ ] Edited
+- Cleaning the floors (short)
+	- [x] Recorded
+	- [ ] Edited
+- Feeding Spike (short)
+	- [ ] Recorded
+	- [ ] Edited
+- Multi-agents on Codex? (short from other content)
+	- [ ] Recorded
+	- [ ] Edited
+
+Week 3
+- Improving photo generation time (yt)
+	- [x] Recorded
+	- [x] Edited
+- Reviewing work to scale from Tim
+	- [x] Recorded
+	- [ ] Edited
+- kobo_scrape walkthrough (yt)
+	- [ ] Recorded
+	- [ ] Edited
+- Drinking coffee (short) (10:00ish)
+	- [x] Recorded
+	- [x] Edited
+- UX tradeoff (short) (11:20ish)
+	- [x] Recorded
+	- [x] Edited
+- Snoop vs 3k (short) (13:20ish can also bring in the moving of the vr screen)
+	- [x] Recorded
+	- [x] Edited
+- b4 and after image loading (short basically summary of long vid)
+	- [x] Recorded
+	- [x] Edited
+
+Week 4
+- tiktok/yt so good at getting your attention (short) (14:00ish)
+	- [x] Recorded
+	- [x] Edited
+- UX improvement (short) (12:50ish+6:50ish)
+	- [x] Recorded
+	- [x] Edited
+- asking codex what it thinks after sending (early marker + one at 7:50)
+	- [x] Recorded
+	- [x] Edited
+- explaining pipeline (8:50 + 10:30)
+	- [x] Recorded
+	- [x] Edited
+- disneyland + airports (12:20ish)
+	- [x] Recorded
+	- [ ] Edited
+- 
+	- [ ] Recorded
+	- [ ] Edited
+	- [ ] 
