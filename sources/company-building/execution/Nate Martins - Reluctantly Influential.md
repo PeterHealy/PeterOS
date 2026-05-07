@@ -69,12 +69,16 @@ The tension is that the same quality bar that made the chill life possible also 
 - The sprint-board mechanism may work best for people who are already conscientious. For someone who ignores self-set commitments, it may need stronger consequences.
 - The creator-business lesson should not collapse into "start a newsletter." The more general lesson is to repeatedly publish valuable lessons from real work and watch where the market pulls.
 
-## Your Notes
+## Your Captures
 
-- Your highlighted section focuses on the sprint process and "board of directors."
+No explicit PNote annotations were included in the submitted capture. The raw capture preserves the highlighted sprint-board excerpt and the attached image transcription.
+
+## Capture-Based Synthesis
+
+- The highlighted section focuses on the sprint process and "board of directors."
 - The sharp point is that the recipients had no formal responsibility. Accountability came from committing in public to people he respected.
-- The useful pattern for your wiki is a reusable personal operating cadence: theme, three work goals, three personal goals, midpoint update, end-of-sprint review.
-- The writing story is useful because it treats content as a byproduct of exploration: he was trying to start a company, asked what he had learned, and followed the unexpectedly high-ROI signal.
+- The reusable personal operating cadence is: theme, three work goals, three personal goals, midpoint update, end-of-sprint review.
+- The writing story treats content as a byproduct of exploration: he was trying to start a company, asked what he had learned, and followed the unexpectedly high-ROI signal.
 
 ## What Changed In The Wiki
 

@@ -2,25 +2,41 @@
 type: book
 title: <Book Title>
 author: <Author>
-status: unread
-source: <kobo|kindle|article|manual>
-last_synced:
+status: processed
+source: <kobo|kindle|manual>
+summary_basis: <imported highlights|full book reviewed|mixed>
+raw_source:
+captured:
+updated:
 tags: []
 related_sources: []
 ---
 
 # <Book Title>
 
-## Summary
+## Summary Basis
 
-## Highlights
+This page is based on <basis>. It is not a full-book summary unless explicitly marked as full-book reviewed.
 
-## Themes
+## What This Page Is
 
-## People And Concepts
+A highlight-led reading page for the user's extracted captures.
+
+## Highlight Map
+
+## Your Captures
+
+- Full quote export:
+- Exact personal notes:
+
+## Capture-Based Synthesis
+
+## Reusable Ideas
+
+## Possible Uses
+
+Only include concrete content ideas, build ideas, things to check out, or research leads. Omit weak categories.
 
 ## Open Questions
 
-## Connections
-
-## Source Pages
+## Related Pages

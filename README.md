@@ -10,11 +10,13 @@ This repository is designed to work as a standalone Obsidian vault or as a migra
 
 The schema lives in [AGENTS.md](/Users/petercdjh/Code/LLM_Wiki/AGENTS.md).
 
+In Obsidian, start from `sources/`, `knowledge/`, `reference/`, `records/`, `research/`, `ideas/`, and `queries/`. Treat `raw/` as provenance and replay storage rather than the normal reading surface.
+
 ## Layout
 
 - `inbox/` is the staging layer for fast capture and unfiled outputs.
-- `raw/` holds immutable source captures and attachments.
-- `sources/` holds one LLM-authored summary or digest per important source.
+- `raw/` holds immutable source captures and attachments when a separate replay copy is useful.
+- `sources/` holds one LLM-authored source hub per important source.
 - `knowledge/` holds evergreen understanding by domain.
 - `records/` holds longitudinal and versioned state such as blood work and finance plans.
 - `reference/` holds practical lookup pages such as recipes, supplements, and visas.
@@ -63,7 +65,7 @@ Practical next options:
 
 1. Paste a source or note into `inbox/sources/`, or hand it to Codex directly in chat.
 2. Ask Codex to ingest it.
-3. Codex preserves the provided capture in `raw/` and writes the normalized source summary in `sources/`.
+3. Codex writes the normalized source hub in `sources/` and preserves a raw replay copy in `raw/` when the capture is long, messy, imported, file-based, or otherwise worth archiving separately.
 4. For article, essay, and blog URLs, Codex summarizes the full original source when reachable and keeps personal highlights or PNotes separate.
 5. Codex updates the right long-term page in `knowledge/`, `records/`, `reference/`, `research/`, `ideas/`, or `queries/`.
 6. Review the result in Obsidian when useful, but do not manually maintain the filing system unless you want to.

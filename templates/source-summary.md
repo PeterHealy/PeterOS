@@ -13,13 +13,19 @@ tags: []
 
 # <Source Title>
 
-## Summary Basis
+## Source
 
 - URL:
+- Author:
 - Published:
 - Ingested:
-- Based on:
 - Raw capture:
+
+## Summary Basis
+
+- Based on:
+- Full source access:
+- Notes:
 
 ## What This Source Is
 
@@ -29,7 +35,11 @@ tags: []
 
 ## Claims Worth Tracking
 
-## Your Notes
+## Your Captures
+
+Exact user-submitted highlights, PNotes, imported `My thoughts`, or short quote context only. Do not put LLM interpretation in this section.
+
+## Capture-Based Synthesis
 
 ## What Changed In The Wiki
 

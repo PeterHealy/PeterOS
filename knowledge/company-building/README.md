@@ -5,6 +5,11 @@ Use this folder for reusable business and execution knowledge that is not tied t
 ## Current Pages
 
 - [[knowledge/company-building/Agent-Native Go-To-Market]] - heuristics for vertical AI businesses that use incumbent SaaS as backend infrastructure and sell outcomes.
+- [[knowledge/company-building/Frontier Cost Collapse]] - model for access-cost breakthroughs, multiplicative technology curves, and latent demand in frontier markets.
+
+## Active Dossiers
+
+- [[research/company-building/Mission-Driven Work Intensity]] - working file on when extreme focused effort, trained capacity, and high-talent peer environments help versus backfire.
 
 ## Relevant Reference Pages
 

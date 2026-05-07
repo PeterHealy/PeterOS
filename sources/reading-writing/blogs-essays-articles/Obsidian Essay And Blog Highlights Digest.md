@@ -4,64 +4,62 @@ title: Obsidian Essay And Blog Highlights Digest
 author:
 published:
 ingested: 2026-05-05
-status: staged
+updated: 2026-05-07
+status: migration-index
 raw_source: "[[records/Obsidian Notes Import Manifest]]"
-tags: [essays, blogs, articles, highlights, obsidian-import]
+tags: [essays, blogs, articles, highlights, obsidian-import, migration-index]
 ---
 
 # Obsidian Essay And Blog Highlights Digest
 
-## What This Source Bundle Is
+## What This Page Is
 
-This digest covers the long-form web notes imported from `/Users/petercdjh/obsidian/notes/Essays & Blogs`.
+This is now a migration index for the long-form web notes imported from `/Users/petercdjh/obsidian/notes/Essays & Blogs`.
 
-The imported notes are web-highlight captures with URLs, site metadata, tags, and personal annotations preserved. Treat them as raw source material and promote only the durable claims or models into long-term pages.
+It is not the canonical source page for the whole batch. Each imported article, essay, or post now has its own source page in this folder. The raw web-highlight captures remain under `raw/reading-writing/blogs-essays-articles/obsidian-import/`.
 
-## Raw Captures
+## Upgraded Imported Full-Source Pages
 
-- [[raw/reading-writing/blogs-essays-articles/obsidian-import/founder-mode|Founder Mode]]
-- [[raw/reading-writing/blogs-essays-articles/obsidian-import/how-to-do-great-work|How to Do Great Work]]
-- [[raw/reading-writing/blogs-essays-articles/obsidian-import/dario-amodei-machines-of-loving-grace|Dario Amodei - Machines of Loving Grace]]
-- [[raw/reading-writing/blogs-essays-articles/obsidian-import/dario-amodei-the-adolescence-of-technology|Dario Amodei - The Adolescence of Technology]]
-- [[raw/reading-writing/blogs-essays-articles/obsidian-import/power-in-the-age-of-intelligence|Power in the Age of Intelligence]]
-- [[raw/reading-writing/blogs-essays-articles/obsidian-import/going-founder-mode-on-cancer-by-elliot-hershberg|Going Founder Mode On Cancer]]
-- [[raw/reading-writing/blogs-essays-articles/obsidian-import/gardens-of-the-soul-laura-deming|Gardens of the Soul]]
-- [[raw/reading-writing/blogs-essays-articles/obsidian-import/varda-the-space-drug-factory|Varda: The Space Drug Factory]]
-- [[raw/reading-writing/blogs-essays-articles/obsidian-import/how-metrics-make-us-miserable-derek-thompson|How Metrics Make Us Miserable]]
-- [[raw/reading-writing/blogs-essays-articles/obsidian-import/the-obscure-media-theory-that-explains-99-of-everything|The Obscure Media Theory That Explains '99% of Everything']]
-- [[records/Obsidian Notes Import Manifest|Full import manifest]]
+- [[Ryan Holiday - 26 Rules to Be a Better Thinker]]
+- [[Isabel Unraveled - A Rationalists Guide to Manifestation]]
+- [[Robin Hanson - AI is Acceleration]]
+- [[Dario Amodei - Machines of Loving Grace]]
+- [[Dario Amodei - The Adolescence of Technology]]
+- [[Paul Graham - Founder Mode]]
+- [[SemiAnalysis - From Tokens to Burgers]]
+- [[Laura Deming - Gardens of the Soul]]
+- [[Elliot Hershberg - Going Founder Mode On Cancer]]
+- [[Derek Thompson - How Metrics Make Us Miserable]]
+- [[Paul Graham - How to Do Great Work]]
+- [[Will Manidis - Jump Ball]]
+- [[Will Manidis - On the Garden Against Citrini]]
+- [[Packy McCormick - Power in the Age of Intelligence]]
+- [[Farnam Street - The Buffett Formula]]
+- [[MyPrivacy.blog - The Digital Iron Curtain]]
+- [[Derek Thompson - The Obscure Media Theory That Explains 99 Percent of Everything]]
+- [[Will Manidis - To Name The Beasts]]
+- [[Packy McCormick - Varda The Space Drug Factory]]
 
-## Emerging Themes
+## Capture-Based X Pages
 
-- Founder agency, founder-led execution, and resistance to default manager-mode assumptions.
-- AI acceleration, optimistic AI futures, and disagreement with doom-heavy framings.
-- Biology, longevity, cancer, and the founder/operator mindset applied to hard science.
-- Measurement, media, literacy, incentives, and how metrics or platforms shape thought.
-- Learning, compounding, and intellectual ambition.
-- Geopolitics, surveillance, identity systems, and state power.
+- [[The Kobeissi Letter - What If AI Doesnt Actually End The World]] - based on the imported X article capture; direct X retrieval was unavailable during upgrade.
+- [[Will Manidis - Civis Romanus Sum]] - based on one imported X highlight; direct X retrieval was unavailable during upgrade.
 
-## Highest-Signal Candidates For Synthesis
+## Already-Upgraded Full-Source Pages
 
-- [[raw/reading-writing/blogs-essays-articles/obsidian-import/founder-mode|Founder Mode]] should feed `knowledge/company-building/` or a founder-operating dossier.
-- [[raw/reading-writing/blogs-essays-articles/obsidian-import/how-to-do-great-work|How to Do Great Work]] should feed durable notes on compounding work, taste, and ambition.
-- Dario Amodei's AI essays should feed an `ai-agents` or AI futures dossier with explicit disagreement tracking.
-- The biology and longevity essays should feed a research dossier before promotion, because claims may need verification.
-- The media and metrics essays should feed `knowledge/reading-writing/blogs-essays-articles/` or `knowledge/philosophy-politics/`.
+- [[Scott Alexander - Half A Month Of Consolation Writing Advice]]
+- [[Packy McCormick and Will OBrien - The Great Blue Frontier]]
+- [[Robin Hanson - My Class And Goals]]
+- [[Robin Hanson - The Great Filter]]
 
-## What Changed In The Wiki
+## Raw Import Layer
 
-- Preserved imported web highlights in `raw/reading-writing/blogs-essays-articles/obsidian-import/`.
-- Added this digest as the top-level map for the essay/blog batch.
-- Deferred article-by-article summaries until a source is used in a query or selected for promotion.
-
-## Open Questions
-
-- Should AI-futures material live under `knowledge/ai-agents/`, `research/ai-agents/`, or a new `research/ai-futures/` dossier?
-- Which articles should be converted into full source summaries first?
-- Should web-highlight tags be normalized into the wiki's active domains?
-
-## Related Pages
-
-- [[knowledge/reading-writing/blogs-essays-articles/README]]
-- [[sources/reading-writing/blogs-essays-articles/README]]
+- [[records/Obsidian Notes Import Manifest]]
 - [[raw/reading-writing/blogs-essays-articles/README]]
+
+## Migration Notes
+
+- The old structural migration stubs have been replaced with canonical source hubs.
+- Most imported URL-based pages are now full-source summaries plus imported highlights and exact personal notes.
+- X-based pages remain capture-based unless direct retrieval becomes reliable or the full thread body is submitted.
+- Exact personal notes from the import are preserved under `Your Captures`; LLM interpretation belongs in separate synthesis sections.

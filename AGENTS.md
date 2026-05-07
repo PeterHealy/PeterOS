@@ -7,6 +7,7 @@ This repository is a Personal OS built on the LLM wiki pattern. Treat it as a ma
 The repository has three layers:
 
 - `raw/` is the immutable source layer.
+- `sources/` is the human starting point for important sources in Obsidian.
 - the rest of the wiki is the LLM-maintained interpretation and synthesis layer.
 - this file is the schema layer that tells the agent how to maintain the system.
 
@@ -16,8 +17,8 @@ The user should be able to mostly use Codex for ingestion, filing, and upkeep wh
 
 - `inbox/sources/` is the staging area for fast unstructured intake.
 - `inbox/outputs/` is the staging area for useful answers that should be filed later if they are not yet normalized.
-- `raw/` stores immutable source captures such as tweets, podcast snippets, Kobo highlights, PDFs, spreadsheets, lab results, article excerpts, and user-pasted email highlight captures.
-- `sources/` stores one summary or digest page per important source or source bundle. For URL-based articles, essays, and blog posts, summarize the original source when accessible, not only the user's highlights.
+- `raw/` stores immutable source captures such as tweets, podcast snippets, Kobo highlights, PDFs, spreadsheets, lab results, article excerpts, and user-pasted email highlight captures. It is a provenance and replay layer, not the main browsing surface.
+- `sources/` stores one canonical human-readable page per important source. This is the main reading hub for a submitted article, essay, book, tweet/thread, podcast snippet, or source bundle. For URL-based articles, essays, and blog posts, summarize the original source when accessible, not only the user's highlights.
 - `knowledge/` stores evergreen pages by domain.
 - `records/` stores longitudinal or versioned material such as blood work history and finance strategy versions.
 - `reference/` stores practical lookup pages such as recipes, supplements, and visa notes.
@@ -68,13 +69,20 @@ Use these page types deliberately:
 1. Start by reading `index.md`, then follow links into the relevant pages.
 2. For a new source:
    - accept the source from chat or `inbox/sources/`
-   - preserve the raw excerpt, pasted email, file, or metadata capture in `raw/`
-   - create or update a source summary in `sources/`
+   - preserve the raw excerpt, pasted email, file, or metadata capture in `raw/` when the input is long, messy, imported, file-based, personal/medical/financial, or likely to need replay
+   - for short link-plus-highlights submissions, a compact raw record is enough; the canonical source page may carry the full submitted highlights and PNotes when that makes it more useful in Obsidian
+   - create or update one canonical source page in `sources/`; this is the page the user should open first in Obsidian
+   - make the canonical source page a source hub with source metadata, summary basis, exact user captures or notes, LLM synthesis, durable links, and filing notes
+   - for article, essay, and blog pages, prefer the Blue Frontier source-hub standard: `Summary Basis`, `What This Source Is`, `Source Summary`, `Key Ideas`, `Your Captures`, `Capture-Based Synthesis`, `Claims Worth Tracking`, `Caveats`, and `Related Pages`
    - for URL-based articles, essays, and blog posts, fetch or read the canonical URL when possible and base the source summary on the full source
    - if the canonical URL is paywalled, blocked, deleted, or otherwise inaccessible, say so explicitly and mark the summary as based on the user-provided excerpts or metadata
-   - keep the user's highlights and `PNote` material in a clearly labeled section such as `Your Notes`, without duplicating the full raw capture
-   - promote its durable insights into the correct long-term destination
-   - extract any concrete tool or website mentions into [[reference/Tools And Websites]] when they seem reusable
+   - keep the user's highlights, `PNote` material, and imported `My thoughts` material in a clearly labeled `Your Captures` section
+   - preserve user notes exactly; do not paraphrase, upgrade, sanitize, or infer them inside `Your Captures`
+   - put any LLM interpretation in a separate `Synthesis`, `Durable Takeaways`, or `Open Questions` section
+   - for long Kobo or book imports, create a highlight-led reading page rather than a book summary: mark the basis as imported highlights, link to the full raw quote export, preserve exact personal notes, group the extracted highlights into a `Highlight Map`, and synthesize only what the user's captures support
+   - promote durable insights into `knowledge/`, `reference/`, `research/`, or `ideas/` only when the material is reusable beyond this source
+   - extract possible content ideas, build ideas, things to check out, and research leads only when the user's notes or the source captures make them concrete; keep weak inferences local under `Possible Uses` instead of creating standalone pages
+   - extract any concrete tool or website mentions into [[reference/Tools And Websites]] only when they seem reusable
    - update `index.md` and append an entry to `log.md`
 3. For a question:
    - answer from existing wiki pages first
@@ -94,7 +102,7 @@ Use these page types deliberately:
 ## Message Triggers
 
 - When a user message starts with `[SUBMIT]`, treat the rest of the message as source material to ingest into the LLM wiki.
-- For `[SUBMIT]` messages, run the full source workflow: preserve the raw source, create or update a source summary, promote durable insights into the right long-term destination, update `index.md`, and append `log.md`.
+- For `[SUBMIT]` messages, run the source workflow: create or update the canonical source page, preserve exact user captures, create a raw replay capture when the source workflow calls for one, optionally promote durable reusable material, update `index.md`, and append `log.md`.
 - If a `[SUBMIT]` message contains no source material after the prefix, ask the user for the source instead of creating a placeholder page.
 
 ## Domain-Specific Rules
@@ -110,13 +118,15 @@ Use these page types deliberately:
   - store them under `reference/health/nutrition/recipes/`
   - include macros when available
 - Tweets, podcast snippets, and Kobo highlights:
-  - preserve the raw excerpt locally
-  - use digests when many small fragments inform the same topic
+   - preserve the raw excerpt locally
+   - use digests when many small fragments inform the same topic
+   - for books and long Kobo imports, create a canonical source page per book when the book matters enough to browse, but mark `summary_basis` as highlights-based unless the full book has actually been reviewed
+   - book source pages should prioritize the user's extracted highlights, exact notes, theme clusters, taste signals, reusable ideas, and open questions; they should not imitate article pages or pretend to cover the whole book
 - Article, essay, and blog highlight emails:
-  - preserve the pasted email exactly enough in `raw/` to retain the URL, copied snippets, separators, and `PNote` annotations
-  - summarize the original article, essay, or blog post in `sources/` when the URL is accessible
-  - separate the author's argument from the user's reactions by using a `Your Notes` or `Personal Notes` section
-  - treat durable `PNote` takeaways as candidates for `knowledge/`, unresolved threads as candidates for `research/`, and user-originated product, writing, or life ideas as candidates for `ideas/`
+   - preserve the pasted email exactly enough in `raw/` to retain the URL, copied snippets, separators, and `PNote` annotations
+   - summarize the original article, essay, or blog post in `sources/` when the URL is accessible
+   - separate the author's argument from the user's reactions by using a `Your Captures` section for exact user-provided notes and a separate synthesis section for agent interpretation
+   - treat durable `PNote` takeaways as candidates for `knowledge/`, unresolved threads as candidates for `research/`, and user-originated product, writing, or life ideas as candidates for `ideas/`
 - Ideas:
   - favor low-friction capture under `ideas/`
   - only normalize into other areas when the idea matures
@@ -131,7 +141,13 @@ Use these page types deliberately:
 - Use Obsidian wikilinks between related pages.
 - Keep claims traceable by linking back to `sources/` or `records/` pages.
 - Keep the basis of each source summary explicit: full source, user-provided excerpt, metadata stub, or mixed.
-- Do not duplicate the full raw capture in the wiki layer; extract only the useful personal notes, highlights, and PNotes needed for navigation and synthesis.
+- For short article, essay, and blog captures, it is acceptable for the source page to include the full submitted highlights and excerpts alongside exact PNotes.
+- For long captures, books, PDFs, transcripts, lab records, and messy imports, do not duplicate the full raw capture in the wiki layer; extract only the useful personal notes, highlights, and PNotes needed for navigation and synthesis.
+- For book highlight pages, `Your Captures` may be a clickable raw quote-export link plus exact personal notes and selected highlight anchors. Do not force 100+ quotes into the source page when the raw capture already holds them.
+- For fiction, synthesize taste, themes, worldbuilding, craft lessons, political ideas, and emotional patterns only when the user's highlights support them.
+- For nonfiction, synthesize claims, models, practices, open questions, and things to check only from the user's highlights unless the full book has actually been reviewed.
+- Never label an LLM interpretation as the user's note. `Your Captures` should contain only exact submitted notes, exact imported notes, or clearly marked short quote context.
+- If the user supplied no note for a highlight, say that directly rather than inventing a personal takeaway.
 - If two sources disagree, record the disagreement rather than collapsing it.
 - When unsure, mark a claim as tentative.
 - Avoid duplicating full source text in the wiki layer. Summarize and synthesize instead.
@@ -151,7 +167,7 @@ Common fields:
 
 Helpful type-specific fields:
 
-- `raw-source`: `author`, `published`, `captured`, `source_type`, `url`
+- `raw-source`: `author`, `published`, `captured`, `source_type`, `url`, `capture_status`
 - `source-summary`: `author`, `published`, `ingested`, `url`, `summary_basis`, `raw_source`
 - `evergreen`: `source_pages`
 - `research-dossier`: `focus`, `source_pages`
@@ -174,4 +190,5 @@ Helpful type-specific fields:
 - Do not turn the wiki into a dumping ground of raw excerpts.
 - Do not overfit the folder tree before usage proves the need.
 - Do not silently delete historical reasoning.
-- Do not create many tiny standalone pages when one digest or evergreen page would be cleaner.
+- Do not create many tiny standalone knowledge pages when one digest or evergreen page would be cleaner.
+- Do not force every source to produce a new evergreen, reference, research, or idea page. The canonical source page is often enough.

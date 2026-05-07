@@ -4,7 +4,8 @@
 
 - [[overview]] - current top-level synthesis for the wiki.
 - [[log]] - append-only history of ingests, queries, restructures, and maintenance.
-- [[AGENTS]] - maintenance schema for future Codex sessions, including source-ingest, `[SUBMIT]`, and URL article highlight rules.
+- [[AGENTS]] - maintenance schema for future Codex sessions, including canonical source hubs, exact user captures, `[SUBMIT]`, and promotion rules.
+- [[templates/README|Templates]] - reusable page skeletons for future ingests and maintenance work.
 
 ## Intake
 
@@ -16,13 +17,19 @@
 - [[raw/README|Raw]] - immutable source layer.
 - [[raw/reading-writing/books/obsidian-import/chip-war-the-fight-for-the-worlds-most-critical-technology]] - imported Kobo-highlight raw source from the Obsidian book notes batch.
 - [[raw/reading-writing/blogs-essays-articles/obsidian-import/founder-mode]] - imported web-highlight raw source from the Obsidian essay/blog notes batch.
+- [[raw/reading-writing/blogs-essays-articles/scott-alexander-half-a-month-of-consolation-writing-advice-highlight-email]] - user-selected excerpts from Scott Alexander's writing advice article.
+- [[raw/reading-writing/blogs-essays-articles/not-boring-the-great-blue-frontier-highlight-email]] - user-pasted highlights and PNotes from Packy McCormick and Will O'Brien's Not Boring essay on the ocean as an under-industrialized frontier.
 - [[raw/reading-writing/blogs-essays-articles/robin-hanson-great-filter-highlight-email]] - user-pasted highlight email for Robin Hanson's Great Filter essay.
+- [[raw/reading-writing/blogs-essays-articles/robin-hanson-my-class-and-goals-submit]] - user-submitted URL and personal note for Robin Hanson's essay on class, goals, and the funeral test.
 - [[raw/personal/README|Raw Personal Sources]] - immutable personal-note captures pending filing or promotion.
 - [[raw/ai-agents/ethskills]] - metadata stub for ETHSkills.
 - [[raw/ai-agents/slavingia-skills]] - metadata stub for Sahil Lavingia's Minimalist Entrepreneur skills repo.
+- [[raw/ai-agents/not-boring-world-models-highlight-capture]] - user-pasted highlight capture from Packy McCormick and Pim De Witte's Not Boring essay on world models.
+- [[raw/ai-agents/zeneca-all-about-local-llms-highlight-capture]] - user-highlighted capture from Zeneca's article on local LLM hardware, software, and agent workflows.
 - [[raw/misc/karpathy-llm-wiki]] - seed raw source capture for the LLM wiki pattern.
 - [[raw/company-building/ai/greg-isenberg-agent-first-startups-tweet]] - raw capture of Greg Isenberg's agent-first startups tweet.
 - [[raw/company-building/execution/chameleon-jeff-hard-work-over-smart-work-thread]] - user-pasted full text capture of a thread arguing hard work matters more than smart work during mission-driven building phases.
+- [[raw/company-building/execution/dom-cooke-beyond-the-sky-jeffrey-yan-hyperliquid-highlight-capture]] - user-provided highlight capture and PNotes from Dom Cooke's Colossus profile of Jeffrey Yan and Hyperliquid.
 - [[raw/company-building/execution/boz-career-cold-start-algorithm]] - raw capture of Boz's article on ramping into a new team or project through recursive listening interviews.
 - [[raw/company-building/execution/lenny-rachitsky-sprint-board-highlight]] - user-highlighted capture from a First Round Review profile covering Rachitsky's biweekly sprint board and self-imposed accountability system.
 - [[raw/company-building/marketing/om-patel-first-100-paying-users-zero-ad-spend]] - raw capture of a March 2026 X post on zero-ad customer acquisition and early distribution tactics.
@@ -31,15 +38,23 @@
 - [[raw/company-building/marketing/natiakourdadze-how-to-build-a-personal-brand-on-x-in-2026]] - raw capture of a March 2026 X post about personal-brand growth tactics, algorithm heuristics, and viral hooks.
 - [[raw/company-building/marketing/natiakourdadze-how-id-promote-my-startup-if-i-had-0-followers]] - raw capture of a March 2026 X post about startup promotion without an audience, borrowed distribution, and community seeding.
 - [[raw/health/bryan-johnson-protocol]] - metadata stub for Bryan Johnson's protocol site.
-- [[sources/README|Sources]] - normalized source summaries and digests.
-- [[sources/reading-writing/books/Obsidian Book Highlights Digest]] - source digest for the imported Kobo book-highlight notes.
-- [[sources/reading-writing/blogs-essays-articles/Obsidian Essay And Blog Highlights Digest]] - source digest for the imported long-form web highlight notes.
+- [[sources/README|Sources]] - canonical human-readable source pages.
+- [[sources/reading-writing/books/README|Book Source Pages]] - canonical source-page index for books, including one page per imported Kobo book note.
+- [[sources/reading-writing/books/Obsidian Book Highlights Digest]] - migration index for the original imported Kobo book-highlight batch.
+- [[sources/reading-writing/blogs-essays-articles/README|Essay And Article Source Pages]] - canonical source-page index for articles, essays, and blog posts, including upgraded full-source pages from the imported Obsidian web-highlight batch.
+- [[sources/reading-writing/blogs-essays-articles/Obsidian Essay And Blog Highlights Digest]] - migration index for the original imported long-form web highlight batch, now pointing to upgraded source hubs and explicit capture-based X exceptions.
+- [[sources/reading-writing/blogs-essays-articles/Scott Alexander - Half A Month Of Consolation Writing Advice]] - full-source summary of Alexander's advice on nonfiction blogging, honest prose, constraints, ideas, and reader attention.
+- [[sources/reading-writing/blogs-essays-articles/Packy McCormick and Will OBrien - The Great Blue Frontier]] - full-source summary of a Not Boring essay arguing that persistent ocean infrastructure can collapse the cost of ocean work.
+- [[sources/reading-writing/blogs-essays-articles/Robin Hanson - My Class And Goals]] - full-source summary of Hanson's essay on class background, academic incentives, explicit life goals, and the funeral test.
 - [[sources/reading-writing/blogs-essays-articles/Robin Hanson - The Great Filter]] - full-source summary of Hanson's essay on the Fermi paradox, cosmic colonization, and the Great Filter.
 - [[sources/ai-agents/ETHSkills]] - summary of ETHSkills as an external agent skill library.
 - [[sources/ai-agents/Sahil Lavingia - Minimalist Entrepreneur Skills]] - summary of `slavingia/skills` as an external founder-methodology skill library.
+- [[sources/ai-agents/Packy McCormick and Pim De Witte - World Models Computing the Uncomputable]] - full-source summary of a Not Boring essay on action-conditioned world models, games as training data, and embodied AI.
+- [[sources/ai-agents/Zeneca - All About Local LLMs]] - full-source summary of Zeneca's guide to local LLM benefits, hardware tradeoffs, software tools, model choice, and agent integration.
 - [[sources/misc/Karpathy - LLM Wiki]] - summary of the seed source that defines the LLM wiki pattern.
 - [[sources/company-building/ai/Greg Isenberg - Agent-First Startups Tweet]] - summary of a tweet arguing for agent-native startups over UI-first SaaS.
 - [[sources/company-building/execution/chameleon_jeff - Hard Work Over Smart Work Thread]] - summary of a thread about work intensity, focus, and mission-driven execution.
+- [[sources/company-building/execution/Dom Cooke - Beyond the Sky]] - full-source summary of a Colossus profile of Jeffrey Yan and Hyperliquid, focused on talent density, trained work capacity, and public financial infrastructure.
 - [[sources/company-building/execution/Boz - A Career Cold Start Algorithm]] - summary of a recursive interview process for new-job and new-project ramp-up.
 - [[sources/company-building/execution/Nate Martins - Reluctantly Influential]] - full-source summary of a First Round Review profile of Lenny Rachitsky, focused on self-imposed accountability, quality, saying no, and creator-business discipline.
 - [[sources/company-building/marketing/Om Patel - First 100 Paying Users With Zero Ad Spend]] - summary of a tactical X post on early customer acquisition without paid ads.
@@ -53,13 +68,19 @@
 
 - [[knowledge/README|Knowledge]] - evergreen understanding by domain.
 - [[knowledge/meta/LLM Wiki Pattern]] - working definition of the LLM wiki pattern used here.
+- [[knowledge/ai-agents/README|AI Agents]] - durable knowledge about agents, world models, embodied AI, tool use, orchestration, and evaluation.
+- [[knowledge/ai-agents/Local LLM Operating Model]] - evergreen local-model strategy for hybrid cloud/local AI workflows, hardware tradeoffs, and always-on private inference.
+- [[knowledge/ai-agents/World Models]] - evergreen note on action-conditioned dynamics models, training agents in learned worlds, and transfer to real environments.
 - [[knowledge/company-building/README|Company Building]] - reusable business and execution knowledge.
 - [[knowledge/company-building/Agent-Native Go-To-Market]] - evergreen heuristics for vertical AI companies built around agent-owned workflows and outcome delivery.
+- [[knowledge/company-building/Frontier Cost Collapse]] - evergreen model for access-cost breakthroughs, multiplicative technology curves, and latent demand in frontier markets.
 - [[knowledge/health/README|Health]] - health, nutrition, sleep, and exercise knowledge.
 - [[knowledge/finance/README|Finance]] - evergreen finance principles and systems.
 - [[knowledge/reading-writing/README|Reading And Writing]] - books and blog/article synthesis.
+- [[knowledge/reading-writing/blogs-essays-articles/Nonfiction Writing Discipline]] - evergreen heuristics for clearer, more original nonfiction essays.
 - [[knowledge/travel/README|Travel]] - visas, logistics, and nomad knowledge.
 - [[knowledge/philosophy-politics/README|Philosophy And Politics]] - worldview and public-thinking material.
+- [[knowledge/philosophy-politics/Stated Life Goals And The Funeral Test]] - evergreen note on using explicit life-goal essays to find meaning in daily choices and judge life by chosen aims.
 - [[knowledge/philosophy-politics/The Great Filter]] - evergreen note on the inferred barrier between dead matter and expanding lasting life.
 
 ## Records
@@ -77,6 +98,7 @@
 - [[reference/Tools And Websites]] - shared registry of concrete tools, websites, APIs, extensions, and products mentioned across the wiki.
 - [[reference/personal/Skills To Improve]] - compact reference page created from the imported personal skills note.
 - [[reference/ai-agents/README|AI Agents Reference]] - external resources and guides for working with agents.
+- [[reference/ai-agents/Local LLM Setup]] - practical local LLM setup reference for LM Studio, Ollama, hardware choices, and local API endpoints.
 - [[reference/ai-agents/skills/README|Agent Skills]] - external skill libraries and skill-like resources for agents.
 - [[reference/ai-agents/skills/ETHSkills]] - Ethereum skill library for AI agents.
 - [[reference/ai-agents/skills/Minimalist Entrepreneur Skills]] - founder-methodology skill library for business decisions and startup execution.
@@ -101,13 +123,16 @@
 
 - [[research/README|Research]] - active dossiers for unfinished topics.
 - [[research/company-building/Agent-First Startups]] - working file for the thesis that incumbents become backends and startups become agent-native fronts.
-- [[research/company-building/Mission-Driven Work Intensity]] - working file on when extreme focused effort helps versus backfires.
+- [[research/company-building/Mission-Driven Work Intensity]] - working file on when extreme focused effort, trained capacity, and high-talent peer environments help versus backfire.
 
 ## Ideas
 
 - [[ideas/README|Ideas]] - high-volume build, write, and misc idea capture.
 - [[ideas/build/Imported Build Ideas From Obsidian]] - build ideas extracted from the imported personal `to build` note.
+- [[ideas/build/Wiki Recall System]] - recall-first review layer for the LLM wiki, using generated questions, answer reveal, and spaced resurfacing.
 
 ## Queries
 
 - [[queries/README|Queries]] - durable answers, memos, and analyses.
+- [[queries/How Should I Read My Wiki In Obsidian]] - saved operating answer for using Obsidian as the human browsing, recall, and synthesis surface.
+- [[queries/When Are Pages Created Outside Raw]] - saved operating answer for when source material becomes summaries, knowledge, references, records, research, ideas, or queries.

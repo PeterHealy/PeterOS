@@ -2,7 +2,7 @@
 type: overview
 title: LLM Wiki Overview
 status: active
-updated: 2026-05-05
+updated: 2026-05-07
 tags:
   - overview
   - llm-wiki
@@ -15,7 +15,9 @@ tags:
 
 This repository is a Personal OS built on the LLM wiki pattern and intended to be maintained primarily through Codex.
 
-It now includes a staged import of the user's prior Obsidian reading vault: book highlights, long-form web highlights, and a small set of personal notes. Those captures live in the raw layer and should be promoted gradually into summaries, evergreen pages, research dossiers, references, records, or idea notes.
+It now includes a migrated import of the user's prior Obsidian reading vault: book highlights, long-form web highlights, and a small set of personal notes. The raw captures remain in the raw layer, while imported books and articles now have canonical source pages for human browsing. Book source pages are highlight-led reading pages rather than full-book summaries; article and essay source pages summarize the full URL when accessible.
+
+Recent source ingests have started turning individual essays into durable pages, including writing discipline, AI world models, local LLM operating strategy, frontier cost collapse, the Great Filter, and explicit life-goal essays as a meaning practice. New submissions should usually produce one canonical source hub first, with promotion to evergreen or reference pages only when the idea is reusable beyond the source.
 
 ## Working Assumptions
 

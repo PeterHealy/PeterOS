@@ -73,4 +73,3 @@ Emoji in the screenshot are omitted from this local transcription.
 ## Capture Notes
 
 - The canonical article was accessible during ingest, so the source summary is based on the full First Round Review article plus this user-highlighted excerpt.
-- The durable takeaway is the operating system: a lightweight externalized accountability board can impose structure during exploratory work without turning the group into a formal advisory board.

@@ -4,58 +4,55 @@ title: Obsidian Book Highlights Digest
 author:
 published:
 ingested: 2026-05-05
-status: staged
+updated: 2026-05-07
+status: migration-index
 raw_source: "[[records/Obsidian Notes Import Manifest]]"
-tags: [books, kobo, highlights, obsidian-import]
+tags: [books, kobo, highlights, obsidian-import, migration-index]
 ---
 
 # Obsidian Book Highlights Digest
 
-## What This Source Bundle Is
+## What This Page Is
 
-This digest covers the book notes imported from `/Users/petercdjh/obsidian/notes/Books`.
+This is now a migration index for the book notes imported from `/Users/petercdjh/obsidian/notes/Books`.
 
-The imported notes are not polished book summaries. They are Kobo highlight captures with the user's reading annotations preserved. Treat them as raw source material for later synthesis into book summaries, evergreen pages, research dossiers, or reference notes.
+It is not the canonical source page for the whole batch. Each imported book now has its own source page in this folder. The raw Kobo highlight captures remain under `raw/reading-writing/books/obsidian-import/`.
 
-## Raw Captures
+## Canonical Book Source Pages
 
-- [[raw/reading-writing/books/obsidian-import/chip-war-the-fight-for-the-worlds-most-critical-technology|Chip War: The Fight for the World's Most Critical Technology]]
-- [[raw/reading-writing/books/obsidian-import/the-nvidia-way|The Nvidia Way]]
-- [[raw/reading-writing/books/obsidian-import/read-write-own-building-the-next-era-of-the-internet|Read Write Own: Building the Next Era of the Internet]]
-- [[raw/reading-writing/books/obsidian-import/this-is-how-they-tell-me-the-world-ends|This Is How They Tell Me the World Ends]]
-- [[raw/reading-writing/books/obsidian-import/being-mortal-medicine-and-what-matters-in-the-end|Being Mortal: Medicine and What Matters in the End]]
-- [[raw/reading-writing/books/obsidian-import/breath-the-new-science-of-a-lost-art|Breath: The New Science of a Lost Art]]
-- [[raw/reading-writing/books/obsidian-import/the-rise-and-fall-of-the-third-reich|The Rise and Fall of the Third Reich]]
-- [[raw/reading-writing/books/obsidian-import/am-i-being-too-subtle|Am I Being Too Subtle?]]
-- [[records/Obsidian Notes Import Manifest|Full import manifest]]
+- [[Ray Bradbury - Fahrenheit 451]]
+- [[James S. A. Corey - Abaddon's Gate]]
+- [[Sam Zell - Am I Being Too Subtle]]
+- [[R. F. Kuang - Babel]]
+- [[James S. A. Corey - Babylon's Ashes]]
+- [[Atul Gawande - Being Mortal]]
+- [[James Nestor - Breath]]
+- [[Pierce Brown - Iron Gold]]
+- [[James S. A. Corey - Caliban's War]]
+- [[Chris Miller - Chip War]]
+- [[James S. A. Corey - Cibola Burn]]
+- [[James S. A. Corey - Nemesis Games]]
+- [[Pierce Brown - Dark Age]]
+- [[James S. A. Corey - Leviathan Falls]]
+- [[James S. A. Corey - Leviathan Wakes]]
+- [[Pierce Brown - Light Bringer]]
+- [[James S. A. Corey - Persepolis Rising]]
+- [[Chris Dixon - Read Write Own]]
+- [[Pierce Brown - Red Rising 3-Book Bundle]]
+- [[Tae Kim - The Nvidia Way]]
+- [[William L. Shirer - The Rise and Fall of the Third Reich]]
+- [[Nicole Perlroth - This Is How They Tell Me the World Ends]]
+- [[James S. A. Corey - Tiamat's Wrath]]
 
-## Fiction And Series Notes
+## Raw Import Layer
 
-The import also includes fiction-heavy highlight captures from *The Expanse*, *Red Rising*, *Babel*, and *Fahrenheit 451*. These should usually remain raw unless a later query needs one of them for themes, writing craft, politics, worldbuilding, or personal taste tracking.
-
-## Highest-Signal Candidates For Synthesis
-
-- *Chip War* - semiconductor manufacturing, geopolitics, industrial capacity, and the difference between copying technology and scaling production.
-- *The Nvidia Way* - company culture, founder leadership, and strategic execution in AI infrastructure.
-- *Read Write Own* - crypto networks, internet ownership, platform power, and web3 arguments worth testing against current company-building beliefs.
-- *This Is How They Tell Me the World Ends* - cyber conflict, vulnerability markets, and national-security risk.
-- *Being Mortal* - end-of-life medicine, care quality, and the mismatch between clinical success and human priorities.
-- *Breath* - respiratory health claims and practical breathing protocols; health claims should be marked tentative unless cross-checked.
-
-## What Changed In The Wiki
-
-- Preserved imported book highlights in `raw/reading-writing/books/obsidian-import/`.
-- Added this digest as the top-level map for the book-highlight batch.
-- Deferred full book-by-book summaries until a specific book becomes decision-relevant or worth promoting.
-
-## Open Questions
-
-- Which nonfiction books should receive full `source-summary` pages first?
-- Should fiction notes be used for writing-taste analysis, theme tracking, or left as raw highlights?
-- Which health claims from *Breath* are useful enough to cross-check before entering `knowledge/health/`?
-
-## Related Pages
-
-- [[knowledge/reading-writing/books/README]]
-- [[sources/reading-writing/books/README]]
+- [[records/Obsidian Notes Import Manifest]]
 - [[raw/reading-writing/books/README]]
+
+## Migration Notes
+
+- The imported book pages are highlight-led reading pages. They should not be treated as full-book summaries.
+- The complete exact quote exports stay in `raw/reading-writing/books/obsidian-import/`.
+- Source pages preserve exact personal notes under `Your Captures` when non-placeholder notes exist.
+- Source pages use selected block anchors, highlight maps, and capture-based synthesis to make the raw exports navigable without duplicating every quote.
+- Content ideas, build ideas, things to check out, and research leads should be extracted only when concrete.

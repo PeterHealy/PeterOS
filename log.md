@@ -10,6 +10,107 @@ Use one dated heading per event:
 
 `## [YYYY-MM-DD] restructure | Scope`
 
+## [2026-05-07] maintenance | Repo readiness review
+
+- Reviewed [[AGENTS]], [[README]], [[raw/README]], and [[sources/README]] before the next ingestion push.
+- Clarified that [[sources/README]] pages are the main Obsidian starting point and that [[raw/README]] is the provenance/replay layer rather than the normal browsing surface.
+- Updated source workflow guidance so short link-plus-highlights submissions can keep full highlights and PNotes in the canonical source page, while long captures, books, PDFs, transcripts, lab records, and messy imports stay primarily in `raw/`.
+- Normalized imported book source pages from `status: imported` to `status: processed` while keeping their highlights-based limits explicit.
+- Added [[templates/README]] and linked it from [[index]] so page templates are discoverable.
+
+## [2026-05-07] maintenance | Book source-page upgrade
+
+- Updated [[AGENTS]], [[sources/README]], [[sources/reading-writing/books/README]], [[raw/reading-writing/books/README]], [[knowledge/reading-writing/books/README]], and [[templates/book-page]] so book source pages are treated as highlight-led reading pages rather than generic book summaries.
+- Regenerated all 23 imported Kobo book source pages under [[sources/reading-writing/books/README]] from their raw captures in `raw/reading-writing/books/obsidian-import/`.
+- Kept complete exact quote exports in the raw layer and made each source page navigable through raw block links, highlight maps, exact personal notes, capture-based synthesis, reusable ideas, possible uses, open questions, and filing notes.
+- Updated [[sources/reading-writing/books/Obsidian Book Highlights Digest]] to describe the new highlight-led standard.
+
+## [2026-05-07] maintenance | Obsidian article source-page upgrade
+
+- Reprocessed the imported Obsidian blog, essay, and article source pages to match the higher-quality source-hub format used by [[sources/reading-writing/blogs-essays-articles/Packy McCormick and Will OBrien - The Great Blue Frontier]].
+- Upgraded 19 imported URL-based pages into full-source summaries with summary basis, source summary, key ideas, exact `Your Captures`, capture-based synthesis, claims, caveats, and related links.
+- Left the two X-based pages explicitly capture-based where direct X retrieval was unavailable: [[sources/reading-writing/blogs-essays-articles/The Kobeissi Letter - What If AI Doesnt Actually End The World]] and [[sources/reading-writing/blogs-essays-articles/Will Manidis - Civis Romanus Sum]].
+- Updated [[sources/reading-writing/blogs-essays-articles/README]] and [[sources/reading-writing/blogs-essays-articles/Obsidian Essay And Blog Highlights Digest]] so the imported pages are no longer presented as pending stubs.
+- Updated [[index]] to reflect the upgraded source-hub state.
+
+## [2026-05-07] maintenance | Canonical source-page migration
+
+- Updated [[AGENTS]] so `[SUBMIT]` creates one canonical human-readable source page plus a raw archive, with promotion into knowledge, reference, research, or ideas only when reusable.
+- Replaced `Your Notes` guidance with `Your Captures`: exact user notes, PNotes, and imported `My thoughts` belong there; LLM interpretation belongs in separate synthesis sections.
+- Created one canonical source page for each imported Obsidian book note under [[sources/reading-writing/books/README]].
+- Created one canonical source page for each imported Obsidian article, essay, or web post under [[sources/reading-writing/blogs-essays-articles/README]].
+- Converted the old book and article digest pages into migration indexes instead of treating each import batch as a single source.
+- Normalized existing source pages so exact captures are separated from capture-based synthesis.
+
+## [2026-05-07] ingest | Zeneca - All About Local LLMs
+
+- Captured the user-highlighted excerpts from Zeneca's April 21, 2026 article on local LLMs, with emphasis on Mac unified memory, large-model fit, power draw, and noise.
+- Stored the raw capture under [[raw/ai-agents/zeneca-all-about-local-llms-highlight-capture]].
+- Added a full-source summary at [[sources/ai-agents/Zeneca - All About Local LLMs]] after confirming the canonical URL was accessible.
+- Added [[knowledge/ai-agents/Local LLM Operating Model]] as an evergreen hybrid cloud/local model strategy note.
+- Added [[reference/ai-agents/Local LLM Setup]] as a practical setup reference for LM Studio, Ollama, hardware choices, and local OpenAI-compatible endpoints.
+- Updated [[reference/Tools And Websites]] with local-LLM tools and model infrastructure mentioned by the source.
+
+## [2026-05-07] query | When Are Pages Created Outside Raw?
+
+- Answered when and why the wiki should create pages outside the immutable `raw/` layer.
+- Filed the saved answer at [[queries/When Are Pages Created Outside Raw]].
+- Linked the query from [[index]].
+
+## [2026-05-07] query | How Should I Read My Wiki In Obsidian?
+
+- Answered the operating question of how a human should browse and read this LLM wiki in Obsidian.
+- Filed the saved answer at [[queries/How Should I Read My Wiki In Obsidian]].
+- Linked the query from [[index]].
+
+## [2026-05-07] query | Wiki Recall System
+
+- Added [[ideas/build/Wiki Recall System]] as a build-spec note for turning ingested wiki material into active recall questions with answer reveal and spaced resurfacing.
+- Updated [[ideas/build/README]] and [[index]] so the idea is findable.
+- Added reusable tool references for Anki, Telegram Bot API, Discord Webhooks, Apple WidgetKit, and Android App Widgets to [[reference/Tools And Websites]].
+- Design emphasis: keep scheduling and card storage separate from delivery surfaces so email, Telegram, Discord, web UI, and lockscreen widgets can share the same recall engine.
+- Repository decision: build the product code in a separate `wiki-recall` repo that references `LLM_Wiki` as its data source, with any writeback limited to an explicit recall records area.
+
+## [2026-05-07] ingest | Packy McCormick and Will O'Brien - The Great Blue Frontier
+
+- Captured the user-provided highlights and PNotes from the Not Boring essay on the ocean as a frontier market.
+- Stored the raw capture under [[raw/reading-writing/blogs-essays-articles/not-boring-the-great-blue-frontier-highlight-email]].
+- Added a full-source summary at [[sources/reading-writing/blogs-essays-articles/Packy McCormick and Will OBrien - The Great Blue Frontier]] after reading the accessible canonical URL.
+- Added [[knowledge/company-building/Frontier Cost Collapse]] as a reusable model for access breakthroughs, multiplicative technology curves, and latent demand.
+- Updated [[reference/Tools And Websites]] with reusable ocean infrastructure companies and platforms mentioned in the source.
+
+## [2026-05-07] ingest | Dom Cooke - Beyond the Sky
+
+- Captured the user's highlighted excerpts and PNotes from Colossus's profile of Jeffrey Yan and Hyperliquid under [[raw/company-building/execution/dom-cooke-beyond-the-sky-jeffrey-yan-hyperliquid-highlight-capture]].
+- Read the accessible canonical article and added a full-source summary at [[sources/company-building/execution/Dom Cooke - Beyond the Sky]].
+- Updated [[research/company-building/Mission-Driven Work Intensity]] with the Hyperliquid/Yan case: trained work capacity, high-talent peer environments, and directionally confident execution under uncertainty.
+- Added reusable site entries for Colossus and Hyperliquid to [[reference/Tools And Websites]].
+- User-note emphasis: "beyond the sky" should calibrate toward the next reachable level rather than diminish results; peer group and grind are central to raising the ceiling.
+
+## [2026-05-07] ingest | Robin Hanson - My Class And Goals
+
+- Captured the user-submitted Overcoming Bias URL and personal note about using the funeral question to find meaning in daily life.
+- Stored the raw submitted capture under [[raw/reading-writing/blogs-essays-articles/robin-hanson-my-class-and-goals-submit]].
+- Added a full-source summary at [[sources/reading-writing/blogs-essays-articles/Robin Hanson - My Class And Goals]].
+- Added [[knowledge/philosophy-politics/Stated Life Goals And The Funeral Test]] as an evergreen note on writing explicit life-goal essays and judging days against chosen aims.
+- Source access note: the canonical article was accessible directly on 2026-05-07.
+
+## [2026-05-07] ingest | Packy McCormick and Pim De Witte - World Models
+
+- Captured the user's submitted excerpts from Not Boring's March 19, 2026 essay on world models under [[raw/ai-agents/not-boring-world-models-highlight-capture]].
+- Read the accessible canonical article and added a full-source summary at [[sources/ai-agents/Packy McCormick and Pim De Witte - World Models Computing the Uncomputable]].
+- Added [[knowledge/ai-agents/README]] and [[knowledge/ai-agents/World Models]] as the first evergreen pages in the AI-agent knowledge domain.
+- Updated [[reference/Tools And Websites]] with reusable AI-agent and robotics resources from the source.
+- User-note emphasis: world models depend on latent action-conditioned prediction, explicit uncertainty over possible futures, actions as behavioral compression, and games as unusually clean action-outcome datasets.
+
+## [2026-05-07] ingest | Scott Alexander - Half A Month Of Consolation Writing Advice
+
+- Captured the user-selected excerpts from Scott Alexander's April 21, 2026 Astral Codex Ten article on writing advice.
+- Stored the raw highlight capture under [[raw/reading-writing/blogs-essays-articles/scott-alexander-half-a-month-of-consolation-writing-advice-highlight-email]].
+- Added a full-source summary at [[sources/reading-writing/blogs-essays-articles/Scott Alexander - Half A Month Of Consolation Writing Advice]].
+- Added [[knowledge/reading-writing/blogs-essays-articles/Nonfiction Writing Discipline]] as an evergreen page for reusable nonfiction writing heuristics.
+- Source access note: the canonical article URL was accessible during ingest, so the source summary is based on the full article plus the user's selected excerpts.
+
 ## [2026-05-07] restructure | [SUBMIT] Ingest Trigger
 
 - Updated [[AGENTS]] so future user messages beginning with `[SUBMIT]` are treated as source material to ingest into the LLM wiki.

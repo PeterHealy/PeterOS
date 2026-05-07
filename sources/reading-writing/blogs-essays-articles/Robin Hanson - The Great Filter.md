@@ -58,10 +58,17 @@ The conclusion is not that humanity is doomed, but that the absence of visible a
 - Conditional-on-success timing can make hard evolutionary steps appear similarly spaced even when the steps differ in intrinsic difficulty.
 - The Great Filter is interdisciplinary: biology, astrophysics, engineering, and social theory each offer possible failure points, but none should be allowed to hand-wave the filter into another field.
 
-## Your Notes
+## Your Captures
 
-- You flagged Hanson's point that alternative routes to expanding lasting life make the problem worse. The interpretation is: more independent possible routes mean more opportunities for at least one civilization to reach visible expansion, so the observed silence requires an even larger total filter somewhere.
-- You agreed with Hanson's skepticism toward secret-alien explanations. A stronger version of your note: it is not enough to say aliens could hide on or near Earth; the hypothesis must explain why competitive advanced life has not visibly used nearby solar-system or stellar resources.
+Exact PNotes from the raw capture:
+
+- "Interesting. It's actually better if there is uniquely one way to accelerated cosmic expansion as it reduces the size of the filter or number of filters?"
+- "true true.. feel like there are lots of people that say oh but they could be here rn in secret."
+
+## Capture-Based Synthesis
+
+- More independent possible routes to visible expansion mean more opportunities for at least one civilization to reach it, so the observed silence requires an even larger total filter somewhere.
+- Secret-alien explanations need to explain why competitive advanced life has not visibly used nearby solar-system or stellar resources.
 
 ## What Changed In The Wiki
 
