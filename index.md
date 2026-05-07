@@ -4,7 +4,7 @@
 
 - [[overview]] - current top-level synthesis for the wiki.
 - [[log]] - append-only history of ingests, queries, restructures, and maintenance.
-- [[AGENTS]] - maintenance schema for future Codex sessions, including source-ingest and URL article highlight rules.
+- [[AGENTS]] - maintenance schema for future Codex sessions, including source-ingest, `[SUBMIT]`, and URL article highlight rules.
 
 ## Intake
 

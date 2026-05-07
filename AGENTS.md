@@ -91,6 +91,12 @@ Use these page types deliberately:
    - look for research dossiers ready to be promoted to evergreen pages
    - look for ideas or saved queries that should be normalized
 
+## Message Triggers
+
+- When a user message starts with `[SUBMIT]`, treat the rest of the message as source material to ingest into the LLM wiki.
+- For `[SUBMIT]` messages, run the full source workflow: preserve the raw source, create or update a source summary, promote durable insights into the right long-term destination, update `index.md`, and append `log.md`.
+- If a `[SUBMIT]` message contains no source material after the prefix, ask the user for the source instead of creating a placeholder page.
+
 ## Domain-Specific Rules
 
 - Blood work:

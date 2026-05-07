@@ -10,6 +10,12 @@ Use one dated heading per event:
 
 `## [YYYY-MM-DD] restructure | Scope`
 
+## [2026-05-07] restructure | [SUBMIT] Ingest Trigger
+
+- Updated [[AGENTS]] so future user messages beginning with `[SUBMIT]` are treated as source material to ingest into the LLM wiki.
+- Defined the trigger as the full ingest workflow: preserve the raw source, create or update a source summary, promote durable insights, update [[index]], and append [[log]].
+- Updated [[index]] to reflect the new message trigger in the schema summary.
+
 ## [2026-05-06] ingest | Nate Martins - Reluctantly Influential
 
 - Captured the user's highlighted excerpt and attached-image transcription from the First Round Review profile of Lenny Rachitsky under [[raw/company-building/execution/lenny-rachitsky-sprint-board-highlight]].
