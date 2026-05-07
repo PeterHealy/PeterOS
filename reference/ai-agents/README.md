@@ -9,5 +9,6 @@ Good fits:
 - orchestration guides
 - agent tool references
 - external MCP or plugin references
+- local model setup and security checklists
 
 If a concept becomes a stable internal practice, promote it into `knowledge/` later.

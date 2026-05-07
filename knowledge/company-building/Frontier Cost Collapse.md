@@ -6,6 +6,7 @@ created: 2026-05-07
 updated: 2026-05-07
 source_pages:
   - "[[sources/reading-writing/blogs-essays-articles/Packy McCormick and Will OBrien - The Great Blue Frontier]]"
+  - "[[sources/ai-agents/Travis Kalanick - Atoms Vision]]"
 tags:
   - company-building
   - frontier
@@ -47,6 +48,19 @@ Falling costs across different pillars are often multiplicative rather than addi
 
 This matters most when legacy industry architecture remains frozen around old assumptions. If multiple component curves improve while incumbents still design for scarcity, a new entrant can reorganize the stack around abundance.
 
+## Physical AI Cost Collapse
+
+[[sources/ai-agents/Travis Kalanick - Atoms Vision]] applies a similar frontier logic to land, mining, manufacturing, food, and transport. The claim is that physical abundance depends on reducing making and moving things toward the cost of minerals, energy, computation, and autonomous machine time.
+
+In this frame, the frontier is not only a remote place like the ocean or space. It can be an ordinary physical workflow that has not yet been made software-addressable. The progress loop is:
+
+1. Sense the current physical state.
+2. Predict the near-future physical state.
+3. Act through routing, dispatch, facilities, machines, or robots.
+4. Use the resulting data and throughput to lower the effective cost of physical work.
+
+The key company-building question is whether the team can turn a messy physical constraint into a repeatable control system before incumbents reorganize around the new cost curve.
+
 ## Latent Demand
 
 Demand is shaped by perceived supply, not just real need.
@@ -71,7 +85,9 @@ The key difference is whether the same cost collapse that enables commerce also 
 - Which component curves are improving independently, and do they multiply each other?
 - Can a new entrant redesign the stack around the new cost structure?
 - Does the access breakthrough create measurement and accountability, or only extraction?
+- Can the company digitize a physical workflow enough to sense, predict, and control useful future states?
 
 ## Canonical Sources
 
 - [[sources/reading-writing/blogs-essays-articles/Packy McCormick and Will OBrien - The Great Blue Frontier]]
+- [[sources/ai-agents/Travis Kalanick - Atoms Vision]]

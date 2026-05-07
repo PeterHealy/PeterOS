@@ -6,6 +6,7 @@ created: 2026-05-07
 updated: 2026-05-07
 source_pages:
   - "[[sources/ai-agents/Zeneca - All About Local LLMs]]"
+  - "[[sources/ai-agents/Vitalik Buterin - My Self-Sovereign Local Private Secure LLM Setup]]"
 tags:
   - evergreen
   - ai-agents
@@ -40,6 +41,17 @@ Ask: what is the smallest local model that handles this job well enough?
 - Agent workflows can run against local OpenAI-compatible endpoints.
 - Always-on local services avoid cloud dependency and provider policy changes.
 
+## Security Boundary
+
+Local inference is not the same as secure agency. A local model with broad file, network, email, wallet, and shell access can still leak data or take harmful actions if it is confused by hostile content or wrapped in unsafe tools.
+
+For agent workflows, use a least-permission setup:
+
+- keep private data and untrusted internet content separated where possible
+- expose sensitive systems through narrow wrapper tools or local daemons
+- require human confirmation for messages, payments, account changes, publishing, and other high-risk external actions
+- allow remote models only the minimum sanitized subproblem they need to solve
+
 ## When Cloud Still Wins
 
 - Frontier reasoning and difficult multi-file coding remain better served by top cloud models.
@@ -58,5 +70,7 @@ Maintain a hybrid stack:
 ## Related
 
 - [[sources/ai-agents/Zeneca - All About Local LLMs]]
+- [[sources/ai-agents/Vitalik Buterin - My Self-Sovereign Local Private Secure LLM Setup]]
+- [[knowledge/ai-agents/Secure Local AI Agent Architecture]]
 - [[reference/ai-agents/Local LLM Setup]]
 - [[reference/Tools And Websites]]

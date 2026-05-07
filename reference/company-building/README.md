@@ -6,6 +6,7 @@ Good fits:
 
 - content frameworks
 - positioning checklists
+- pricing checklists
 - hiring heuristics
 - sales prompts
 - external playbooks worth keeping close at hand

@@ -6,6 +6,7 @@ created: 2026-05-07
 updated: 2026-05-07
 source_pages:
   - "[[sources/ai-agents/Packy McCormick and Pim De Witte - World Models Computing the Uncomputable]]"
+  - "[[sources/ai-agents/Packy McCormick and Evan Beard - Many Small Steps for Robots]]"
 tags:
   - ai-agents
   - world-models
@@ -75,6 +76,8 @@ Games are unusually useful because they expose:
 
 The real world has richer stakes but worse labels. It is harder to know exactly what action caused what outcome, harder to run dangerous or rare cases, and harder to observe hidden state.
 
+For deployed robotics, ordinary video and simulation also miss parts of the physical interaction that matter for control: force, torque, friction, compliance, stiffness, contact dynamics, and hardware-specific sensor feedback. [[knowledge/ai-agents/Robotics Data And Deployment Gradient]] treats this as the embodiment gap: useful world models for robots need to be grounded in data from the body and task they will actually control.
+
 ## Transfer Questions
 
 The practical challenge is transfer: can an agent trained in a learned world act reliably outside it?
@@ -104,3 +107,4 @@ Three transfer curves matter:
 ## Canonical Sources
 
 - [[sources/ai-agents/Packy McCormick and Pim De Witte - World Models Computing the Uncomputable]]
+- [[sources/ai-agents/Packy McCormick and Evan Beard - Many Small Steps for Robots]]

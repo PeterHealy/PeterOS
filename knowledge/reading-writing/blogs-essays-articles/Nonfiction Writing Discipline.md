@@ -6,6 +6,7 @@ created: 2026-05-07
 updated: 2026-05-07
 source_pages:
   - [[sources/reading-writing/blogs-essays-articles/Scott Alexander - Half A Month Of Consolation Writing Advice]]
+  - [[sources/reading-writing/blogs-essays-articles/Packy McCormick - Costless Sacrifice]]
 tags:
   - reading-writing
   - writing
@@ -19,6 +20,8 @@ tags:
 Strong nonfiction usually starts by saying the exact thing the writer believes, as directly as the evidence allows. Weak prose often starts as a workaround: the writer wants to sound more certain, more polished, more topical, more authoritative, or less exposed than the actual thought permits.
 
 Use discipline to expose that mismatch. Temporary constraints are useful when they train the ear to notice what the constraint is pointing at.
+
+In an AI-abundant environment, discipline also means paying real costs that cheap text cannot pay: reading primary sources, sitting with contradictions, finding a shape only you would choose, and editing past the first adequate version. The output matters, but part of the value is that the writer visibly wrestled with the idea.
 
 ## Mountaintop Constraints
 
@@ -39,6 +42,7 @@ Practice these as editing passes, not permanent laws:
 - Spend the reader's first few paragraphs carefully; the title and opening only buy a little runway.
 - Bring the reader closer to the world: direct experience, primary sources, original synthesis, or serious investigation.
 - Ask whether the reader could regenerate the piece from a prompt and common sense. If so, add evidence, texture, lived contact, or a more exact claim.
+- Treat "pretty good" as a danger zone when it arrives too quickly. Ask what cost the essay still needs to pay before it deserves attention.
 
 ## Idea Generation
 
@@ -55,3 +59,4 @@ The useful question is less "Where do ideas come from?" and more "Where are the 
 ## Related Pages
 
 - [[sources/reading-writing/blogs-essays-articles/Scott Alexander - Half A Month Of Consolation Writing Advice]]
+- [[sources/reading-writing/blogs-essays-articles/Packy McCormick - Costless Sacrifice]]

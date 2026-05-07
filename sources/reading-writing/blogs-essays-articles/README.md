@@ -8,10 +8,24 @@ For new URL-based sources, summarize the full article when accessible. For migra
 
 ## Full-Source Pages
 
+- [[Alex Imas and Soumitra Shukla - How Will AI-driven Automation Actually Affect Jobs]] - full-source summary of an essay on AI exposure, O-ring task complementarity, demand elasticity, job dimensionality, and labor displacement.
+- [[Ben Thompson - AI and the Human Condition]] - full-source summary of Thompson's argument that AI abundance may preserve human labor demand through provenance, beauty, status, and shared human experience.
+- [[Ben Thompson - Content and Community]] - full-source summary of Thompson's argument that shared publishing artifacts can create communities where individualized AI answers cannot create common ground.
+- [[Ben Thompson - The Benefits of Bubbles]] - full-source summary of Thompson's argument that inflection bubbles can coordinate investment, install durable infrastructure, create cognitive capacity, and possibly make AI-driven power buildout useful beyond AI.
+- [[Dean W. Ball - Clawed]] - full-source summary of Ball's essay on Anthropic, military AI contracts, supply-chain-risk threats, private-property norms, and the locus of control over frontier AI.
+- [[Derek Thompson - On Being a Dad]] - full-source summary of Thompson's personal essay on parenthood, changing children, ancient human roles, and relational identity.
+- [[Casey Handmer - Notes on the Fermi Paradox]] - full-source summary of Handmer's argument that relativistic alien expansion could be almost invisible until shortly before arrival.
+- [[Garry Tan - Social Media Is a Warzone Wheres Your Armor]] - full-source summary of Tan's argument that AI-populated social media requires personal OSINT agents as defensive armor.
+- [[Packy McCormick - Costless Sacrifice]] - full-source summary of McCormick's argument that AI-era token abundance collapses costless effort signals and makes visibly costly human work more meaningful.
 - [[Scott Alexander - Half A Month Of Consolation Writing Advice]] - full-source summary of Alexander's advice on nonfiction blogging, honesty, constraints, ideas, and reader attention.
 - [[Packy McCormick and Will OBrien - The Great Blue Frontier]] - full-source summary of the ocean as a frontier market enabled by persistent low-cost infrastructure.
 - [[Robin Hanson - My Class And Goals]] - full-source summary of Hanson's essay on class background, academic incentives, explicit life goals, and the funeral test.
 - [[Robin Hanson - The Great Filter]] - full-source summary of Hanson's essay connecting the Fermi paradox to the location of existential filters.
+
+## Accessible-Metadata Plus User-Capture Pages
+
+- [[Ben Thompson - Apple Earnings, Siri White-Labels Gemini]] - Stratechery capture on Apple treating frontier AI models as white-label supply, Siri potentially using Gemini, and the platform economics of Apple-Google bargains.
+- [[Derek Thompson - Why Cant People Agree on a Shared Set of Facts]] - accessible opening and user-submitted capture on belief, interpretation, sensory filtering, and inquiry-based turnaround practice.
 
 ## Upgraded Imported Full-Source Pages
 

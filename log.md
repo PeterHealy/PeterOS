@@ -10,6 +10,97 @@ Use one dated heading per event:
 
 `## [YYYY-MM-DD] restructure | Scope`
 
+## [2026-05-07] idea | Body Sensation Translator
+
+- Captured a build and writing idea at [[ideas/build/Body Sensation Translator]].
+- Preserved the user's raw note about abnormal bodily sensations being hard to describe to a doctor and the child case of Kye having a sore tummy but being unable to explain it.
+- Filed the idea as a health/AI product seed with writing angles and open questions, without promoting it into research or evergreen knowledge yet.
+
+## [2026-05-07] idea | The Control Paradox of Choice Media
+
+- Captured the user's thought about broadcast TV narrative control versus on-demand media choice.
+- Added [[ideas/write/The Control Paradox of Choice Media]] as a writing idea about visible gatekeepers, invisible recommendation systems, choice abundance, shared schedules, and viewer agency.
+- Linked it to existing pages on shared content artifacts and AI-era human provenance where the idea may later connect.
+
+## [2026-05-07] ingest | Dean W. Ball - Clawed
+
+- Captured the user-submitted Hyperdimensional URL and exact highlights from Dean W. Ball's essay on Anthropic, military AI contracting, supply-chain-risk threats, and the locus of control over frontier AI.
+- Stored the raw capture under [[raw/reading-writing/blogs-essays-articles/dean-ball-clawed-submit]].
+- Added a full-source source hub at [[sources/reading-writing/blogs-essays-articles/Dean W. Ball - Clawed]].
+- Source access note: the canonical Substack URL was accessible on 2026-05-07, so the source summary is based on the full article plus the submitted highlights.
+
+## [2026-05-07] ingest | David Ondrej - Fix Your AI Business Pricing Tweet
+
+- Captured the user-submitted full X post on AI business pricing, Vectal's pricing changes, anchor tiers, annual plans, upsells, API-cost posture, and high-ticket niche AI agents.
+- Stored the raw capture under [[raw/company-building/pricing/david-ondrej-fix-your-ai-business-pricing-tweet]].
+- Added a capture-based canonical source page at [[sources/company-building/pricing/David Ondrej - Fix Your AI Business Pricing Tweet]].
+- Added [[knowledge/company-building/pricing/AI Business Pricing Ladder]] as a durable model for free/core/anchor/annual/setup/expansion pricing.
+- Added [[reference/company-building/pricing/AI SaaS Pricing Checklist]] as a practical pricing review checklist.
+- Source access note: the tweet was not independently fetched; the summary is based on the full text supplied by the user.
+
+## [2026-05-07] ingest | Packy McCormick - Costless Sacrifice
+
+- Captured the user-submitted excerpts from Packy McCormick's March 5, 2026 Not Boring essay on costless sacrifice, AI token abundance, and costly human work.
+- Stored the raw capture under [[raw/reading-writing/blogs-essays-articles/not-boring-costless-sacrifice-submit]].
+- Added a full-source source hub at [[sources/reading-writing/blogs-essays-articles/Packy McCormick - Costless Sacrifice]] after reading the accessible canonical URL.
+- Updated [[knowledge/philosophy-politics/Human Provenance After AI Abundance]] with the cost-as-signal variant of human provenance.
+- Updated [[knowledge/reading-writing/blogs-essays-articles/Nonfiction Writing Discipline]] with the "pay the shekels" rule for AI-era nonfiction.
+
+## [2026-05-07] ingest | Derek Thompson - On Being a Dad
+
+- Captured the submitted URL for Derek Thompson's March 4, 2026 essay on fatherhood.
+- Stored a compact raw replay capture under [[raw/reading-writing/blogs-essays-articles/derek-thompson-on-being-a-dad-submit]].
+- Added a full-source summary at [[sources/reading-writing/blogs-essays-articles/Derek Thompson - On Being a Dad]].
+- Source access note: the canonical URL was accessible, so the summary is based on the full source rather than only submitted metadata.
+
+## [2026-05-07] ingest | Derek Thompson - Why Can't People Agree on a Shared Set of Facts?
+
+- Captured the user-submitted excerpts from Derek Thompson's March 13, 2026 Nir Eyal interview on belief, interpretation, sensory filtering, and inquiry-based turnaround practice.
+- Stored the raw capture under [[raw/reading-writing/blogs-essays-articles/derek-thompson-pill-that-works-even-when-you-submit]].
+- Added an accessible-source plus user-capture summary at [[sources/reading-writing/blogs-essays-articles/Derek Thompson - Why Cant People Agree on a Shared Set of Facts]].
+- Added [[knowledge/philosophy-politics/Beliefs As Interpretive Tools]] as a durable page for beliefs as interpretation filters, portfolio-of-perspectives practice, and agency recovery.
+- Source access note: the canonical URL was accessible only through the opening/interview excerpt before the Substack continuation gate, so the source page does not claim to summarize the inaccessible remainder.
+
+## [2026-05-07] ingest | Packy McCormick and Evan Beard - Many Small Steps for Robots
+
+- Captured the user-provided excerpts from Not Boring's January 16, 2026 essay on robotics data, video limits, the embodiment gap, humanoid tradeoffs, and customer-discovered use cases.
+- Stored the raw capture under [[raw/ai-agents/not-boring-robot-steps-highlight-capture]].
+- Added a full-source summary at [[sources/ai-agents/Packy McCormick and Evan Beard - Many Small Steps for Robots]].
+- Added [[knowledge/ai-agents/Robotics Data And Deployment Gradient]] as a durable page for deployment-led robotics learning, intervention data, bounded variability, and form-factor fit.
+- Updated [[knowledge/ai-agents/World Models]] with a robotics-data caveat and added reusable robotics companies to [[reference/Tools And Websites]].
+- Source access note: the canonical Not Boring URL was accessible on 2026-05-07, so the source page is based on the full article plus the submitted excerpts.
+
+## [2026-05-07] ingest | Marcus Segal - How To Build a PMF Machine
+
+- Captured the user-submitted excerpts from Marcus Segal's a16z speedrun article on product-market fit, engineering time, and metric-first roadmapping.
+- Stored the raw capture under [[raw/company-building/execution/marcus-segal-how-to-build-a-pmf-machine-highlight-capture]].
+- Read the accessible canonical Substack article and added a full-source summary at [[sources/company-building/execution/Marcus Segal - How To Build a PMF Machine]].
+- Added [[reference/company-building/execution/PMF Roadmapping Loop]] as a reusable execution reference for ranking product work by metric impact and effort.
+- User-note emphasis: start with the metric before writing code, externalize and stack-rank all feature ideas, and power-rank by impact-to-effort.
+
+## [2026-05-07] ingest | Ben Thompson - Content and Community
+
+- Captured the user-submitted Stratechery excerpt and exact PNote on content as shared common ground around books, Reddit discussions, Twitch chat, sports, politics, and community formation.
+- Stored the raw capture under [[raw/reading-writing/blogs-essays-articles/ben-thompson-content-and-community-submit]].
+- Read the accessible canonical article and added a full-source summary at [[sources/reading-writing/blogs-essays-articles/Ben Thompson - Content and Community]].
+- Added [[knowledge/company-building/Content-Based Communities]] as an evergreen note on shared content artifacts, individualized AI answers, and creator/community economics.
+
+## [2026-05-07] ingest | Alex Imas and Soumitra Shukla - How Will AI-driven Automation Actually Affect Jobs?
+
+- Captured the user-submitted excerpts from the March 23, 2026 Ghosts of Electricity essay on AI automation and labor-market displacement.
+- Stored the raw submission under [[raw/reading-writing/blogs-essays-articles/alex-imas-soumitra-shukla-ai-driven-automation-jobs-submit]].
+- Added a full-source canonical page at [[sources/reading-writing/blogs-essays-articles/Alex Imas and Soumitra Shukla - How Will AI-driven Automation Actually Affect Jobs]].
+- Added [[knowledge/ai-agents/AI Automation And Job Displacement]] as a durable model for task complementarity, demand elasticity, job dimensionality, and firm incentives.
+- Updated [[reference/Tools And Websites]] with reusable labor-analysis and autonomous-trucking references mentioned in the source.
+
+## [2026-05-07] ingest | Ben Thompson - AI and the Human Condition
+
+- Captured the user-provided Stratechery excerpt on agricultural labor transitions, AI displacement, new internet-native work, and professional podcasting.
+- Stored the raw source under [[raw/reading-writing/blogs-essays-articles/stratechery-ai-and-the-human-condition-highlight-capture]].
+- Added a canonical full-source hub at [[sources/reading-writing/blogs-essays-articles/Ben Thompson - AI and the Human Condition]] after confirming the canonical URL was accessible.
+- Added [[knowledge/philosophy-politics/Human Provenance After AI Abundance]] as an evergreen note on human-made work retaining value through provenance, status, beauty, trust, and shared experience under AI abundance.
+- Source access note: the canonical Stratechery article was accessible from the ingestion environment on 2026-05-07.
+
 ## [2026-05-07] maintenance | Repo readiness review
 
 - Reviewed [[AGENTS]], [[README]], [[raw/README]], and [[sources/README]] before the next ingestion push.
@@ -195,6 +286,69 @@ Use one dated heading per event:
 - Added a source summary at [[sources/ai-agents/Sahil Lavingia - Minimalist Entrepreneur Skills]].
 - Added a reusable reference page at [[reference/ai-agents/skills/Minimalist Entrepreneur Skills]].
 - Decision note: kept it as a reference rather than vendoring the Claude plugin into the wiki.
+
+## [2026-05-07] ingest | Ben Thompson - Apple Earnings, Siri White-Labels Gemini
+
+- Captured the user-provided Stratechery excerpts on Apple white-labeling Gemini for Siri, "good enough" AI capability, supplier price discipline, and Apple-Google platform economics.
+- Stored the raw source under [[raw/reading-writing/blogs-essays-articles/stratechery-apple-earnings-siri-white-labels-gemini-highlight-capture]].
+- Added a canonical source hub at [[sources/reading-writing/blogs-essays-articles/Ben Thompson - Apple Earnings, Siri White-Labels Gemini]].
+- Added [[knowledge/company-building/Model Commoditization And Platform Leverage]] as a reusable strategy note on platforms white-labeling commodity model capability while owning distribution and user experience.
+- Source access note: the canonical Stratechery URL was subscriber-gated from this environment, so the source page is based on accessible metadata plus the user's submitted excerpts, not the full article.
+
+## [2026-05-07] ingest | Vitalik Buterin - My Self-Sovereign Local Private Secure LLM Setup
+
+- Captured Vitalik Buterin's April 2, 2026 article on local-first, private, secure LLM and agent setups.
+- Stored a compact raw metadata stub at [[raw/ai-agents/vitalik-secure-local-llm-setup]].
+- Added a full-source source hub at [[sources/ai-agents/Vitalik Buterin - My Self-Sovereign Local Private Secure LLM Setup]].
+- Added [[knowledge/ai-agents/Secure Local AI Agent Architecture]] as an evergreen note on least-permission local agents, mediated tools, trust zones, and human-confirmed high-risk actions.
+- Updated [[knowledge/ai-agents/Local LLM Operating Model]], [[reference/ai-agents/Local LLM Setup]], and [[reference/Tools And Websites]] with the article's durable security and tooling implications.
+- Source access note: the canonical URL was accessible at ingest time; the user submitted the URL only, with no highlights or PNotes.
+
+## [2026-05-07] query | Personal Brand Writing Themes From Wiki Review
+
+- Reviewed the wiki's source pages, knowledge pages, ideas, references, and personal records for recurring personal writing themes.
+- Added [[queries/Personal Brand Writing Themes From Wiki Review]] as a durable synthesis of personal-brand territory, content themes, taste signals, and walking-thought prompts.
+- Main synthesis: the user's strongest writing territory is personal agency under new control systems, especially portable sovereignty, personal OSINT, human work after AI abundance, privacy, freedom, frontier cost collapse, and confidence as self-command.
+
+## [2026-05-07] ingest | Ben Thompson - The Benefits of Bubbles
+
+- Captured the user-submitted highlight email for Thompson's November 5, 2025 Stratechery article on inflection bubbles, Perez installation phases, AI capex, and power buildout.
+- Stored the raw highlight email under [[raw/reading-writing/blogs-essays-articles/stratechery-the-benefits-of-bubbles-highlight-email]].
+- Added a full-source canonical hub at [[sources/reading-writing/blogs-essays-articles/Ben Thompson - The Benefits of Bubbles]].
+- Added [[knowledge/company-building/Bubbles As Coordination Mechanisms]] as a reusable company-building model for productive bubbles, physical capacity, cognitive capacity, and AI-era power infrastructure.
+- Source access note: the canonical Stratechery URL was accessible during ingestion, so the source summary is based on the full article plus the submitted highlights.
+
+## [2026-05-07] ingest | Travis Kalanick - Atoms Vision
+
+- Captured the user's submitted excerpts from Atoms' vision page on digitizing the physical world, physical AI primitives, Uber-style sensing and routing, and the humanoid-versus-specialized-robot decision.
+- Stored the raw replay capture under [[raw/ai-agents/atoms-vision-submit]].
+- Added a full-source canonical source page at [[sources/ai-agents/Travis Kalanick - Atoms Vision]] after confirming the URL was accessible.
+- Updated [[knowledge/ai-agents/Robotics Data And Deployment Gradient]] with the physical-state loop and "gainfully employed robots" form-factor heuristic.
+- Updated [[knowledge/company-building/Frontier Cost Collapse]] with the physical-AI cost-collapse angle.
+- Added Atoms to [[reference/Tools And Websites]].
+
+## [2026-05-07] ingest | Casey Handmer - Notes on the Fermi Paradox
+
+- Captured the submitted URL for Casey Handmer's March 3, 2026 blog post on the Fermi paradox.
+- Stored a compact raw metadata capture under [[raw/reading-writing/blogs-essays-articles/casey-handmer-notes-on-the-fermi-paradox]].
+- Added a full-source canonical page at [[sources/reading-writing/blogs-essays-articles/Casey Handmer - Notes on the Fermi Paradox]].
+- Updated [[knowledge/philosophy-politics/The Great Filter]] with Handmer's relativistic visibility-window caveat for near-light-speed grabby alien expansion.
+- Source access note: the canonical URL was accessible at ingest time; no user highlights or PNotes were supplied.
+
+## [2026-05-07] ingest | Dying As An AoE Spell
+
+- Captured a user-originated writing idea about death as a powerful "AoE spell" that creates social permission for praise, story-sharing, and collective reflection.
+- Filed the exact submitted thought under [[ideas/write/Dying As An AoE Spell]].
+- Kept interpretation separate from the original capture and linked it to the existing funeral-test material.
+
+## [2026-05-07] ingest | Garry Tan - Social Media Is a Warzone. Where's Your Armor?
+
+- Captured the user-submitted URL and exact PNote for Garry Tan's February 3, 2026 Garry's List article on AI-populated social media as a hostile information environment.
+- Stored the raw capture under [[raw/reading-writing/blogs-essays-articles/garry-tan-social-media-is-a-warzone-wheres-your-armor-submit]].
+- Added a full-source article hub at [[sources/reading-writing/blogs-essays-articles/Garry Tan - Social Media Is a Warzone Wheres Your Armor]].
+- Added [[knowledge/ai-agents/Personal OSINT Agent Network]] as an evergreen note for personal OSINT agents, curated source maps, provenance checks, and attention safeguards.
+- Added Garry's List to [[reference/Tools And Websites]].
+- Source access note: the canonical URL was accessible, so the source summary is based on the full article plus the user's submitted PNote.
 
 ## [2026-04-27] ingest | natiakourdadze - How To Build a Personal Brand on X in 2026
 

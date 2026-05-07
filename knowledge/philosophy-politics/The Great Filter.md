@@ -3,9 +3,10 @@ type: evergreen
 title: The Great Filter
 status: active
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-07
 source_pages:
   - [[sources/reading-writing/blogs-essays-articles/Robin Hanson - The Great Filter]]
+  - [[sources/reading-writing/blogs-essays-articles/Casey Handmer - Notes on the Fermi Paradox]]
 tags:
   - philosophy-politics
   - great-filter
@@ -58,6 +59,14 @@ In this framework, not all exciting discoveries are good news.
 - Social-restraint theories need to explain why nearly all advanced civilizations avoid expansion despite variation, competition, and selection for resource use.
 - The filter does not have to sit in one place; it can be distributed across many steps.
 
+## Relativistic Visibility Window
+
+[[sources/reading-writing/blogs-essays-articles/Casey Handmer - Notes on the Fermi Paradox]] adds an observability caveat to simple versions of the Fermi argument. If expansionist aliens travel at a high fraction of light speed, the light that reveals their launch or frontier is only slightly ahead of the travelers themselves. The phase where humanity has detected aliens but has not yet encountered them could therefore be extremely short on historical timescales.
+
+This weakens the intuition that a fast-expanding civilization should necessarily appear as a large, slowly growing region of altered stars. In our past light cone, near-light-speed expansion can look narrow and delayed, especially for off-axis arrivals. A visually empty sky is still evidence, but the evidence depends on travel speed, detectability, telescope quality, and the geometry of observation.
+
+The caveat does not remove the filter. It shifts the hard question: if relativistic travel is feasible and expansionist selection exists, why has no earlier expansion wave in the galaxy already reached Earth?
+
 ## Personal Hooks
 
 The user's notes emphasize two useful intuitions:
@@ -68,3 +77,4 @@ The user's notes emphasize two useful intuitions:
 ## Source Trail
 
 - [[sources/reading-writing/blogs-essays-articles/Robin Hanson - The Great Filter]]
+- [[sources/reading-writing/blogs-essays-articles/Casey Handmer - Notes on the Fermi Paradox]]
